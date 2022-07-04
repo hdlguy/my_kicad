@@ -1,0 +1,53 @@
+
+set_property IOSTANDARD LVCMOS33    [get_ports {clk}]
+set_property PACKAGE_PIN E3         [get_ports {clk}]
+
+set_property IOSTANDARD LVCMOS33    [get_ports {pmod[*][*]}]
+set_property PACKAGE_PIN G2  [get_ports {pmod[3][7]}]
+set_property PACKAGE_PIN H2  [get_ports {pmod[3][6]}]
+set_property PACKAGE_PIN D2  [get_ports {pmod[3][5]}]
+set_property PACKAGE_PIN E2  [get_ports {pmod[3][4]}]
+set_property PACKAGE_PIN F3  [get_ports {pmod[3][3]}]
+set_property PACKAGE_PIN F4  [get_ports {pmod[3][2]}]
+set_property PACKAGE_PIN D3  [get_ports {pmod[3][1]}]
+set_property PACKAGE_PIN D4  [get_ports {pmod[3][0]}]
+
+set_property PACKAGE_PIN U13 [get_ports {pmod[2][7]}]
+set_property PACKAGE_PIN T13 [get_ports {pmod[2][6]}]
+set_property PACKAGE_PIN v14 [get_ports {pmod[2][5]}]
+set_property PACKAGE_PIN U14 [get_ports {pmod[2][4]}]
+set_property PACKAGE_PIN V11 [get_ports {pmod[2][3]}]
+set_property PACKAGE_PIN V10 [get_ports {pmod[2][2]}]
+set_property PACKAGE_PIN V12 [get_ports {pmod[2][1]}]
+set_property PACKAGE_PIN U12 [get_ports {pmod[2][0]}]
+
+set_property PACKAGE_PIN J15 [get_ports {pmod[1][7]}]
+set_property PACKAGE_PIN K15 [get_ports {pmod[1][6]}]
+set_property PACKAGE_PIN J18 [get_ports {pmod[1][5]}]
+set_property PACKAGE_PIN J17 [get_ports {pmod[1][4]}]
+set_property PACKAGE_PIN C15 [get_ports {pmod[1][3]}]
+set_property PACKAGE_PIN D15 [get_ports {pmod[1][2]}]
+set_property PACKAGE_PIN E16 [get_ports {pmod[1][1]}]
+set_property PACKAGE_PIN E15 [get_ports {pmod[1][0]}]
+
+set_property PACKAGE_PIN K16 [get_ports {pmod[0][7]}]
+set_property PACKAGE_PIN A18 [get_ports {pmod[0][6]}]
+set_property PACKAGE_PIN B18 [get_ports {pmod[0][5]}]
+set_property PACKAGE_PIN D13 [get_ports {pmod[0][4]}]
+set_property PACKAGE_PIN D12 [get_ports {pmod[0][3]}]
+set_property PACKAGE_PIN A11 [get_ports {pmod[0][2]}]
+set_property PACKAGE_PIN B11 [get_ports {pmod[0][1]}]
+set_property PACKAGE_PIN G13 [get_ports {pmod[0][0]}]
+
+
+set_property IOSTANDARD LVCMOS33    [get_ports led[*]]
+set_property PACKAGE_PIN T10        [get_ports led[3]]
+set_property PACKAGE_PIN  T9        [get_ports led[2]]
+set_property PACKAGE_PIN  J5        [get_ports led[1]]
+set_property PACKAGE_PIN  H5        [get_ports led[0]]
+
+set_property PACKAGE_PIN  E1        [get_ports led[4]]
+set_property PACKAGE_PIN  G4        [get_ports led[5]]
+set_property PACKAGE_PIN  H4        [get_ports led[6]]
+set_property PACKAGE_PIN  K2        [get_ports led[7]]
+
