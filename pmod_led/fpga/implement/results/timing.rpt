@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
-| Date         : Sun Jul  3 13:18:08 2022
+| Date         : Mon Jul  4 12:10:20 2022
 | Host         : WD-SN850 running 64-bit Ubuntu 20.04.4 LTS
 | Command      : report_timing_summary -file ./results/timing.rpt
 | Design       : top
@@ -47,10 +47,10 @@ check_timing report
 
 Table of Contents
 -----------------
-1. checking no_clock (72)
+1. checking no_clock (105)
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
-4. checking unconstrained_internal_endpoints (72)
+4. checking unconstrained_internal_endpoints (145)
 5. checking no_input_delay (0)
 6. checking no_output_delay (40)
 7. checking multiple_clock (0)
@@ -60,9 +60,9 @@ Table of Contents
 11. checking partial_output_delay (0)
 12. checking latch_loops (0)
 
-1. checking no_clock (72)
--------------------------
- There are 72 register/latch pins with no clock driven by root clock pin: clk (HIGH)
+1. checking no_clock (105)
+--------------------------
+ There are 105 register/latch pins with no clock driven by root clock pin: clk (HIGH)
 
 
 2. checking constant_clock (0)
@@ -75,9 +75,9 @@ Table of Contents
  There are 0 register/latch pins which need pulse_width check
 
 
-4. checking unconstrained_internal_endpoints (72)
--------------------------------------------------
- There are 72 pins that are not constrained for maximum delay. (HIGH)
+4. checking unconstrained_internal_endpoints (145)
+--------------------------------------------------
+ There are 145 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

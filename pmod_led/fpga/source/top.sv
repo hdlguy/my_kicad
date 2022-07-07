@@ -4,16 +4,23 @@ module top(
     output  logic[7:0]          led
 );
 
-    localparam int Ncount = 32;
+    localparam int Ncount = 25;
     logic[Ncount-1:0] count;
-    logic[4:0] index;
+    logic[31:0] shreg = 32'hff_ff_ff_fe;
+    logic[7:0] ledcnt = 0;
+    
     always_ff @(posedge clk) begin
+
         count <= count - 1;
-        pmod[3] <= count[Ncount-1:Ncount-8];
-        pmod[2] <= count[Ncount-1:Ncount-8];
-        pmod[1] <= count[Ncount-1:Ncount-8];
-        pmod[0] <= count[Ncount-1:Ncount-8];
-        led     <= count[Ncount-1:Ncount-8];
+
+        if (0 == count) begin
+            shreg <= {shreg[0], shreg[31:1]};
+            ledcnt <= ledcnt + 1;
+        end
+
+        pmod <= shreg;
+        led  <= ledcnt;
+
     end
 
 endmodule
