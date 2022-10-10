@@ -101,7 +101,12 @@
   (pad "75" smd rect (at 9.25 -5.275) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 74cbde07-fc8f-42bc-89c0-34fa8aa763d5))
   (pad "S1" smd rect (at -10.35 -4.5) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b751ae8-7bc0-4629-aa78-a17ea5702626))
   (pad "S2" smd rect (at 10.35 -4.5) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9b0a1a8c-4542-4bb3-98bb-bb2f8590322f))
-  (model "${KIPRJMOD}/parts/te/1-2199230-5/1-2199230-5.step"
+  (model "${KIPRJMOD}/parts/te/1-2199230-5/1-2199230-5.step" hide
+    (offset (xyz 0 -2.5 2.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "/home/pedro/github/my_kicad/libs/step/1-2199230-5.step"
     (offset (xyz 0 -2.5 2.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
