@@ -85,7 +85,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
   )
-  (model "/home/pedro/github/my_kicad/libs/step/QTE-020-01-X-D-A.step"
+  (model "/home/pdudley/github/my_kicad/libs/step/QTE-020-01-X-D-A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

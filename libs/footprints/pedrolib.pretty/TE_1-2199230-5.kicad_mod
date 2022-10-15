@@ -106,7 +106,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/pedro/github/my_kicad/libs/step/1-2199230-5.step"
+  (model "/home/pdudley/github/my_kicad/libs/step/1-2199230-5.step"
     (offset (xyz 0 -2.5 2.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
