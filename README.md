@@ -10,7 +10,7 @@ Here are how I have my paths setup.
 
 <img src="images/paths.png">
 
-The official KiCad libraries are cloned from these paths:
+The official KiCad libraries are cloned from these url:
 
     https://gitlab.com/kicad/libraries/kicad-symbols
     https://gitlab.com/kicad/libraries/kicad-footprints
