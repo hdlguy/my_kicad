@@ -12,9 +12,9 @@ Here are how I have my paths setup.
 
 The official KiCad libraries are cloned from these paths:
 
-https://gitlab.com/kicad/libraries/kicad-symbols
-https://gitlab.com/kicad/libraries/kicad-footprints
-https://gitlab.com/kicad/libraries/kicad-packages3d
+    https://gitlab.com/kicad/libraries/kicad-symbols
+    https://gitlab.com/kicad/libraries/kicad-footprints
+    https://gitlab.com/kicad/libraries/kicad-packages3d
 
 
 
