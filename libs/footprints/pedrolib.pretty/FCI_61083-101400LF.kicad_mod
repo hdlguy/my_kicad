@@ -135,7 +135,7 @@
   (pad "98" smd rect (at 18.8 2.2) (size 0.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8fb36630-01b8-4b60-b656-4c7749239316))
   (pad "99" smd rect (at 19.6 -2.2) (size 0.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eaeada44-f867-4890-ad2f-c0a9323e9d8d))
   (pad "100" smd rect (at 19.6 2.2) (size 0.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 05e92a03-6a8a-4303-a14d-220cb3df82f1))
-  (model "${KICAD6_LOCAL_LIBS}/step/61083-101400LF.step"
+  (model "/home/pedro/github/my_kicad/libs/step/61083-101400LF.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
