@@ -1,6 +1,8 @@
 clear;
 format long;
 
+% values in mils taken from Cadence .brd file.
+
 edge_x1 = 678.80;
 edge_x2 = 3828.40;
 
@@ -19,11 +21,12 @@ j3_y = 656.98;
 j4_x = 3680.28;
 j4_y = 1690.68;
 
+% board dimensions in mm
 
 xdim_mm = 25.4*(edge_x2-edge_x1)/1000
 ydim_mm = 25.4*(edge_y2-edge_y1)/1000
 
-% connector placement computed from origin at top left corner
+% connector placement computed from origin at top left corner in mm
 
 j1_xpos_mm = 25.4*(j1_x - edge_x1)/1000
 j1_ypos_mm = 25.4*(edge_y2 - j1_y)/1000
