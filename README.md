@@ -1,6 +1,6 @@
 #               my_kicade
 
-This is repo to contain some simple attempts to use Kicad 6 to design some printed circuit boards.
+This is a repo to contain some simple attempts to use Kicad 6 to design printed circuit boards.
 
 ## File organization and version control
 
