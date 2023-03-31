@@ -89,7 +89,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/pdudley/github/my_kicad/libs/step/QTH-020-01-X-D-DP-A.step"
+  (model "/home/pdudley/github/my_kicad/libs/step/QTH-020-01-X-D-DP-A.step" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "/home/pedro/github/my_kicad/libs/step/QTH-020-01-X-D-DP-A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
