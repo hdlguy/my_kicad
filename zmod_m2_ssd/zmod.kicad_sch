@@ -2204,6 +2204,24 @@
     (pin "1" (uuid 6aa41989-02a9-4ffb-9c45-61678645d0b7))
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 279.4 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 5216a05f-00bb-4954-a8d0-d0c5066122b7)
+    (property "Reference" "H7" (id 0) (at 281.94 149.8599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (id 1) (at 281.94 151.1299 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_Pad" (id 2) (at 279.4 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 279.4 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 652b7f79-982e-4879-87af-1a6f0d9da4f6))
+  )
+
   (symbol (lib_id "power:+1V8") (at 45.72 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 574953ab-37d0-4e5b-84d1-743ba3ce35f5)
@@ -2789,6 +2807,9 @@
     )
     (path "/c13f3700-e00e-4956-97fb-54ee233d79f6"
       (reference "H6") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+    )
+    (path "/5216a05f-00bb-4954-a8d0-d0c5066122b7"
+      (reference "H7") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_Pad")
     )
     (path "/713a8cb6-be5c-413a-968b-156735b7e9f4"
       (reference "J1") (unit 1) (value "MDT420M02001") (footprint "pedrolib:TE_1-2199230-5")
