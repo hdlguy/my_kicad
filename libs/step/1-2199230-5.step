@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('STEP AP242'),'1');
-FILE_NAME('1-2199230-5.stp','2022-07-28T19:00:55',('TraceParts'),('TraceParts S.A.'),'Spatial InterOp 3D',' ',' ');
+FILE_NAME('1-2199230-5.stp','2022-12-14T15:33:58',('TraceParts'),('TraceParts S.A.'),'Spatial InterOp 3D',' ',' ');
 FILE_SCHEMA(('AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF  {1 0 10303 442 1 1 4}'));
 ENDSEC;
 DATA;
