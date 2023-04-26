@@ -10,7 +10,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
-        "dimension_precision": 4,
+        "dimension_precision": 5,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -57,7 +57,7 @@
         {
           "gap": 0.127,
           "via_gap": 0.127,
-          "width": 0.3429
+          "width": 0.2032
         }
       ],
       "drc_exclusions": [],
@@ -366,7 +366,7 @@
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3429,
+        "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
