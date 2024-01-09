@@ -511,7 +511,7 @@
 
   (footprint "Package_BGA:Xilinx_FGG484" (layer "F.Cu")
     (tedit 5CC4225D) (tstamp 82b8043d-cb60-40d9-aab9-4dfefd0f1b4b)
-    (at 131.025 161.035 180)
+    (at 123.945 158.425 180)
     (descr "Artix-7 BGA, 22x22 grid, 23x23mm package, 1mm pitch; https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275, NSMD pad definition Appendix A")
     (tags "BGA 484 1 FG484 FGG484")
     (property "Sheetfile" "pcie_fpga.kicad_sch")
