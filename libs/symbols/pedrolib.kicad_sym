@@ -5503,7 +5503,7 @@
     (property "Value" "PCIexpress_x8" (id 1) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCIexpress:PCIexpress_x8" (id 2) (at 0 -24.13 0)
+    (property "Footprint" "pedrolib:PCIexpress_x8" (id 2) (at 0 -24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 -24.13 0)
