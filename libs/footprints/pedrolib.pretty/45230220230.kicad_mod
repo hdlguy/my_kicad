@@ -81,8 +81,8 @@
   (pad "28" smd rect (at 7.62 -2.032) (size 0.737 2.54) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f05c8f28-28bf-4851-8602-44b579d44b33))
   (pad "29" smd rect (at 8.89 2.032) (size 0.737 2.54) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f4220014-d5e3-4d0d-9341-b2d2e2e0422b))
   (pad "30" smd rect (at 8.89 -2.032) (size 0.737 2.54) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c6cbe7f1-d112-402d-b7fd-ef8f61d73321))
-  (model ":MY_LIBS:step/45230-220230.stp"
-    (offset (xyz 0 0 0))
+  (model ":MY_LIBS:step/45230-2X02.stp"
+    (offset (xyz -8.85 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
