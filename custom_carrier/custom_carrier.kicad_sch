@@ -11497,6 +11497,18 @@
 		)
 		(uuid "ff872d12-0dd2-41ac-9322-7d20ec5ee4bd")
 	)
+	(text "Not Required"
+		(exclude_from_sim no)
+		(at 155.194 129.032 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "28d56ce3-53b2-468c-aeb6-20fcafa18de4")
+	)
 	(label "CH0_D1_P"
 		(at 190.5 92.71 0)
 		(fields_autoplaced yes)
