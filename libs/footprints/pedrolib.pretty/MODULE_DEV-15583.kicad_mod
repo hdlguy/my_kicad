@@ -501,4 +501,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "79fbaece-9b4f-46cb-9ab4-24222da42aab")
 	)
+	(model "${MY_LIBS}/step/DEV-15583.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
