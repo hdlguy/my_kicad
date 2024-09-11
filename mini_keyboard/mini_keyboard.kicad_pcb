@@ -80,38 +80,108 @@
 		)
 	)
 	(net 0 "")
-	(net 1 "unconnected-(U1-PadP$1)")
-	(net 2 "unconnected-(U1-PadP$2)")
-	(net 3 "unconnected-(U2-PadP$2)")
-	(net 4 "unconnected-(U2-PadP$1)")
-	(net 5 "unconnected-(U3-PadP$1)")
-	(net 6 "unconnected-(U3-PadP$2)")
-	(net 7 "unconnected-(U4-PadP$2)")
-	(net 8 "unconnected-(U4-PadP$1)")
-	(net 9 "unconnected-(U5-PadP$2)")
-	(net 10 "unconnected-(U5-PadP$1)")
-	(net 11 "unconnected-(U6-PadP$2)")
-	(net 12 "unconnected-(U6-PadP$1)")
-	(net 13 "unconnected-(U7-PadP$2)")
-	(net 14 "unconnected-(U7-PadP$1)")
-	(net 15 "unconnected-(U8-PadP$2)")
-	(net 16 "unconnected-(U8-PadP$1)")
-	(net 17 "unconnected-(U9-PadP$2)")
-	(net 18 "unconnected-(U9-PadP$1)")
-	(net 19 "unconnected-(U10-PadP$2)")
-	(net 20 "unconnected-(U10-PadP$1)")
-	(net 21 "unconnected-(U11-PadP$1)")
-	(net 22 "unconnected-(U11-PadP$2)")
-	(net 23 "unconnected-(U12-PadP$2)")
-	(net 24 "unconnected-(U12-PadP$1)")
+	(net 1 "unconnected-(U8-PadP$2)")
+	(net 2 "unconnected-(U8-PadP$1)")
+	(net 3 "unconnected-(U9-PadP$2)")
+	(net 4 "unconnected-(U9-PadP$1)")
+	(net 5 "unconnected-(U10-PadP$2)")
+	(net 6 "unconnected-(U10-PadP$1)")
+	(net 7 "unconnected-(U11-PadP$1)")
+	(net 8 "unconnected-(U11-PadP$2)")
+	(net 9 "unconnected-(U12-PadP$2)")
+	(net 10 "unconnected-(U12-PadP$1)")
+	(net 11 "unconnected-(U13-PadP$1)")
+	(net 12 "unconnected-(U13-PadP$2)")
+	(net 13 "unconnected-(U14-PadP$1)")
+	(net 14 "unconnected-(U14-PadP$2)")
+	(net 15 "unconnected-(U15-PadP$1)")
+	(net 16 "unconnected-(U15-PadP$2)")
+	(net 17 "unconnected-(U16-PadP$1)")
+	(net 18 "unconnected-(U16-PadP$2)")
+	(net 19 "unconnected-(U17-PadP$2)")
+	(net 20 "unconnected-(U17-PadP$1)")
+	(net 21 "unconnected-(U18-PadP$1)")
+	(net 22 "unconnected-(U18-PadP$2)")
+	(net 23 "unconnected-(U19-PadP$2)")
+	(net 24 "unconnected-(U19-PadP$1)")
+	(net 25 "unconnected-(U20-PadP$1)")
+	(net 26 "unconnected-(U20-PadP$2)")
+	(net 27 "unconnected-(U21-PadP$2)")
+	(net 28 "unconnected-(U21-PadP$1)")
+	(net 29 "unconnected-(U22-PadP$1)")
+	(net 30 "unconnected-(U22-PadP$2)")
+	(net 31 "unconnected-(U23-PadP$2)")
+	(net 32 "unconnected-(U23-PadP$1)")
+	(net 33 "unconnected-(U24-PadP$1)")
+	(net 34 "unconnected-(U24-PadP$2)")
+	(net 35 "unconnected-(U25-PadP$2)")
+	(net 36 "unconnected-(U25-PadP$1)")
+	(net 37 "unconnected-(U26-PadP$1)")
+	(net 38 "unconnected-(U26-PadP$2)")
+	(net 39 "unconnected-(U27-PadP$2)")
+	(net 40 "unconnected-(U27-PadP$1)")
+	(net 41 "unconnected-(U29-PadP$2)")
+	(net 42 "unconnected-(U29-PadP$1)")
+	(net 43 "unconnected-(U30-PadP$2)")
+	(net 44 "unconnected-(U30-PadP$1)")
+	(net 45 "unconnected-(U31-PadP$1)")
+	(net 46 "unconnected-(U31-PadP$2)")
+	(net 47 "unconnected-(U32-PadP$2)")
+	(net 48 "unconnected-(U32-PadP$1)")
+	(net 49 "unconnected-(U33-PadP$1)")
+	(net 50 "unconnected-(U33-PadP$2)")
+	(net 51 "unconnected-(U34-PadP$1)")
+	(net 52 "unconnected-(U34-PadP$2)")
+	(net 53 "unconnected-(U36-PadP$1)")
+	(net 54 "unconnected-(U36-PadP$2)")
+	(net 55 "unconnected-(U37-PadP$2)")
+	(net 56 "unconnected-(U37-PadP$1)")
+	(net 57 "unconnected-(U38-PadP$1)")
+	(net 58 "unconnected-(U38-PadP$2)")
+	(net 59 "unconnected-(U39-PadP$1)")
+	(net 60 "unconnected-(U39-PadP$2)")
+	(net 61 "unconnected-(U100-Pad21)")
+	(net 62 "unconnected-(U100-Pad1)")
+	(net 63 "unconnected-(U100-PadVIN)")
+	(net 64 "unconnected-(U100-Pad19)")
+	(net 65 "unconnected-(U100-Pad18)")
+	(net 66 "unconnected-(U100-Pad23)")
+	(net 67 "unconnected-(U100-Pad3.3V_2)")
+	(net 68 "unconnected-(U100-PadG1)")
+	(net 69 "unconnected-(U100-Pad0)")
+	(net 70 "unconnected-(U100-Pad7)")
+	(net 71 "unconnected-(U100-Pad17)")
+	(net 72 "unconnected-(U100-ON{slash}OFF-PadON-OFF)")
+	(net 73 "unconnected-(U100-Pad3)")
+	(net 74 "unconnected-(U100-Pad5)")
+	(net 75 "unconnected-(U100-Pad13)")
+	(net 76 "unconnected-(U100-Pad10)")
+	(net 77 "unconnected-(U100-Pad8)")
+	(net 78 "unconnected-(U100-PadG3)")
+	(net 79 "unconnected-(U100-PadG2)")
+	(net 80 "unconnected-(U100-Pad14)")
+	(net 81 "unconnected-(U100-Pad3.3V_1)")
+	(net 82 "unconnected-(U100-Pad15)")
+	(net 83 "unconnected-(U100-Pad2)")
+	(net 84 "unconnected-(U100-Pad9)")
+	(net 85 "unconnected-(U100-Pad4)")
+	(net 86 "unconnected-(U100-Pad20)")
+	(net 87 "unconnected-(U100-Pad11)")
+	(net 88 "unconnected-(U100-PadVBAT)")
+	(net 89 "unconnected-(U100-Pad16)")
+	(net 90 "unconnected-(U100-Pad22)")
+	(net 91 "unconnected-(U100-PROGRAM-PadPGM)")
+	(net 92 "unconnected-(U100-Pad12)")
+	(net 93 "unconnected-(U100-Pad6)")
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
-		(uuid "1503e4e5-7742-4941-b64f-81b4193a2022")
-		(at 63.5 44.45)
-		(property "Reference" "U6"
+		(uuid "0e023a6e-bfef-45de-a020-a064b6d6c0b1")
+		(at 160.3375 92.075)
+		(property "Reference" "U27"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "0ac399e0-6b25-4576-83eb-1b1b431c9052")
+			(uuid "4b538089-9a3f-4a6c-8f85-117027c5d528")
 			(effects
 				(font
 					(size 1 1)
@@ -122,7 +192,7 @@
 		(property "Value" "MX1A-11NN"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "538f3516-bf4f-483b-b903-0327a3bd6bf1")
+			(uuid "c15015e8-acde-4a14-affe-0447f5a9afba")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -134,7 +204,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9f86bd5-65b1-4f08-8b92-4df6cb58f214")
+			(uuid "1a2ddb19-9477-40b8-8cc7-36bf81d41d03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +216,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "202a7641-d49b-4357-987c-2d51c19c1355")
+			(uuid "6cd3c2ad-fcef-4a79-ac7e-4fe08f524b07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,7 +228,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b3c57bb-9b43-43b9-a758-2826c325121a")
+			(uuid "59bdf8db-5c23-4d71-b4e7-7d2326e612f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,7 +241,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2a92242-c1fc-44ba-a9b1-4d5855bf7f01")
+			(uuid "f5f063c2-42ad-4652-8683-c8c01dd49cfa")
 			(effects
 				(font
 					(size 1 1)
@@ -184,7 +254,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "caccfca4-08e7-42a6-8782-b4b79725dc5e")
+			(uuid "3a46f59a-4f75-4020-a94e-52973318b73a")
 			(effects
 				(font
 					(size 1 1)
@@ -197,7 +267,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dca31aa-a1f9-4a9b-b4e2-7759571a0004")
+			(uuid "57dd8707-b241-4fb5-81ad-71a10c84fd06")
 			(effects
 				(font
 					(size 1 1)
@@ -210,7 +280,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e0bb51d-70cc-4506-9f35-3da6773bf639")
+			(uuid "bb7493a4-8128-4d79-87c6-76a0d22039a5")
 			(effects
 				(font
 					(size 1 1)
@@ -223,7 +293,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd3c18bc-ebd4-4055-8a2a-0ca433872a24")
+			(uuid "c0cec3d0-0d4d-468f-8c66-1ce8159b8c46")
 			(effects
 				(font
 					(size 1 1)
@@ -236,7 +306,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ecd64da-be08-47be-9f8d-7308feb7f4b4")
+			(uuid "5f2c0492-aeef-4b42-9eb9-03345fec8b07")
 			(effects
 				(font
 					(size 1 1)
@@ -249,7 +319,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac9762bf-e007-42e5-88ea-d6a89f41dc06")
+			(uuid "aedd0a26-2a43-4e46-b57a-4b428674edd6")
 			(effects
 				(font
 					(size 1 1)
@@ -262,7 +332,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b39dc521-c970-4dba-bb8e-09cab1b6a32a")
+			(uuid "be7dbe13-d988-4e03-be06-f3b290bdb837")
 			(effects
 				(font
 					(size 1 1)
@@ -275,7 +345,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7b07df9-0ad5-49f2-89ef-1993400bf76a")
+			(uuid "e3a83fe4-5d75-47b3-a752-9d96224552f2")
 			(effects
 				(font
 					(size 1 1)
@@ -283,7 +353,7 @@
 				)
 			)
 		)
-		(path "/f2452c39-8b4e-40ff-9b41-ea437d44ba20")
+		(path "/01c17802-648d-4744-98cc-0a19d6643d2d")
 		(sheetname "Root")
 		(sheetfile "mini_keyboard.kicad_sch")
 		(attr through_hole)
@@ -295,7 +365,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8f1d0389-cc74-4116-b9d3-565beede25b3")
+			(uuid "5a501edf-94a2-44c8-bd09-3d8a12224c37")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -305,7 +375,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "90f0e45d-ce02-43c2-b373-a91e0f007434")
+			(uuid "4bc37fa6-aab3-4fb8-95fd-e456363faa86")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -315,7 +385,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "14e72ed9-de38-4fd2-8b30-dd80a6a2560d")
+			(uuid "760ecb08-14ee-4eb6-96f4-8f378981ec49")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -325,28 +395,28 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ecc49e2-4e9d-4f03-8e0b-0b71a6f482ff")
+			(uuid "d6036b0d-5980-4dd1-8968-c796e1585bc3")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9beb8c31-015d-4c87-b3e4-cc549b616328")
+			(uuid "6af9a578-ae47-45e0-9a8d-fe1c33621c91")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "a76d27fe-c371-4745-86f8-f414be0a848f")
+			(uuid "f236624c-0d1d-42ad-bbb5-1a230651d452")
 		)
 		(pad "" np_thru_hole circle
 			(at 5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "6f24f491-f1d9-43d5-b5ce-c112ef174495")
+			(uuid "0358aa7c-abd6-4cad-b2ae-bd2e80e455cb")
 		)
 		(pad "BR1" thru_hole circle
 			(at -3.81 5.08)
@@ -355,7 +425,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "11585158-77b6-475b-805e-4dcb42eab258")
+			(uuid "b2a3422a-6ae2-48ae-9e55-e9b604052a02")
 		)
 		(pad "BR2" thru_hole circle
 			(at 3.81 5.08)
@@ -364,7 +434,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "c2ccd55b-ff80-4b48-ac50-c7c27ac7194c")
+			(uuid "06bf0f47-5a55-45b7-ab1e-24f52f0b8a3b")
 		)
 		(pad "P$1" thru_hole circle
 			(at 2.51 -5.08)
@@ -372,10 +442,10 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "unconnected-(U6-PadP$1)")
+			(net 40 "unconnected-(U27-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "eed0c15b-8c6e-4a1b-9461-a9655089df81")
+			(uuid "bb807f53-2688-45c9-8067-fce1f70c679f")
 		)
 		(pad "P$2" thru_hole circle
 			(at -3.81 -2.54)
@@ -383,20 +453,21 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "unconnected-(U6-PadP$2)")
+			(net 39 "unconnected-(U27-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "5aff6f6c-4536-4dd5-9be9-85c5e0665783")
+			(uuid "0ca5ba3b-debe-4880-9e79-5a1e1f5e5e45")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
-		(uuid "3eedcfd5-f6e8-413b-b90b-a68973e43484")
-		(at 88.9 63.5)
-		(property "Reference" "U3"
+		(uuid "1334fa22-40cc-45f0-9cbd-97bc9bbde31c")
+		(at 103.1875 92.075)
+		(property "Reference" "U24"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "3e00b6e7-0505-4599-9345-0f249ab2d16b")
+			(uuid "e512e322-15e1-428a-838c-c24399913bcb")
 			(effects
 				(font
 					(size 1 1)
@@ -407,7 +478,7 @@
 		(property "Value" "MX1A-11NN"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "bb6a2b8f-5136-4f72-94dc-c64f1dbe8ba6")
+			(uuid "3faa6d73-aadd-412c-82d2-58bd26bd6001")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -419,7 +490,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4854ed42-8333-4faf-a551-4859ade55b0d")
+			(uuid "0db3ed81-308f-4fa0-8d5c-1d8c1c47f345")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +502,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f7f5797-4937-4ec3-bbb1-f6d7595e87ff")
+			(uuid "513dee85-dead-4bc1-8a00-db3a93bf365b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +514,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5699facd-7f3b-4c8c-ac0f-409cb20af088")
+			(uuid "d215691d-5d21-4db7-911e-f9bf22727185")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,7 +527,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e5ee4a7-fd2d-4998-913f-053b39f0f941")
+			(uuid "77d95f90-b959-4f01-9be0-454703edecdf")
 			(effects
 				(font
 					(size 1 1)
@@ -469,7 +540,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "591f24c3-9e8f-498b-bc04-fe70f6e6a887")
+			(uuid "0e56ca54-e19b-456b-af62-ccec5985177f")
 			(effects
 				(font
 					(size 1 1)
@@ -482,7 +553,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "766ee91e-88bd-41cd-9659-fc20ac08408e")
+			(uuid "f8071207-9d79-4808-9ee6-bb9bdcac62d5")
 			(effects
 				(font
 					(size 1 1)
@@ -495,7 +566,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0704af40-e021-4d70-a02b-9abb4652c19d")
+			(uuid "f9bf519d-adad-4b72-a8fc-d6442e4b9f99")
 			(effects
 				(font
 					(size 1 1)
@@ -508,7 +579,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0791386-88d7-42ae-9ca7-e75dfdd2323f")
+			(uuid "3858d194-6660-4fca-af96-921d60df7f6d")
 			(effects
 				(font
 					(size 1 1)
@@ -521,7 +592,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9337262-7bac-4374-aa07-6a1e43a06ecb")
+			(uuid "ac7c6809-8821-4b32-a2f4-4bcefeb6403e")
 			(effects
 				(font
 					(size 1 1)
@@ -534,7 +605,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7e80e3a-d1db-465e-a6a4-e78c9466dbaf")
+			(uuid "a44a8b42-a64d-4860-bd03-58d0ca014d9f")
 			(effects
 				(font
 					(size 1 1)
@@ -547,7 +618,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "322c3768-0e5b-4405-90f3-9e994b811b92")
+			(uuid "0f6c6967-be45-4b5d-b436-371aa6005b97")
 			(effects
 				(font
 					(size 1 1)
@@ -560,7 +631,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1e452d2-0c0f-4361-b022-43c4bc9eb790")
+			(uuid "0a4f11cf-8f71-44b2-a89a-d33b00eaa5bc")
 			(effects
 				(font
 					(size 1 1)
@@ -568,7 +639,7 @@
 				)
 			)
 		)
-		(path "/a88b578e-f465-484d-9e08-8b0cabaaabe0")
+		(path "/c5c898a6-02ea-46e7-8a89-a05631ecf340")
 		(sheetname "Root")
 		(sheetfile "mini_keyboard.kicad_sch")
 		(attr through_hole)
@@ -580,7 +651,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ebd2bc9b-8e45-4601-bb63-bbb30c2b7d81")
+			(uuid "1dfd5562-d738-43d3-b2c4-7b747a7637fc")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -590,7 +661,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bee02f3d-8071-4f72-ac15-27bb0a140d87")
+			(uuid "c93b09be-f6e2-4707-8d30-e1ba0eaf01df")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -600,7 +671,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c25949b1-abe6-43da-8fbe-3d65f015c0dc")
+			(uuid "47c611a8-3da4-4ff9-99aa-1b6a60c9c073")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -610,28 +681,28 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ed758dd6-8d1b-4b14-92e9-c50e7af9906b")
+			(uuid "16ba5f86-3165-49d0-9685-9b83cef2bfdb")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "8930a47b-71be-406d-81c9-75fbd3a3cdef")
+			(uuid "f15ebcd6-13da-441e-ba79-f58b9cf4c6af")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "a7da03a7-06f7-4293-9ab4-43b951adbda8")
+			(uuid "619c987f-ef5f-4ef3-ad15-0c4e90c0644c")
 		)
 		(pad "" np_thru_hole circle
 			(at 5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "4446bab4-769c-4815-960a-7745a23d767f")
+			(uuid "87d97594-64c0-4844-b3d1-0df26cd666a8")
 		)
 		(pad "BR1" thru_hole circle
 			(at -3.81 5.08)
@@ -640,7 +711,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "14b46d2e-7f92-4f75-9c73-76a28a7a8390")
+			(uuid "1c06920c-a215-4870-a44d-91a8a4f3e39f")
 		)
 		(pad "BR2" thru_hole circle
 			(at 3.81 5.08)
@@ -649,7 +720,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "155cb872-893d-4ae9-9f00-30913403f023")
+			(uuid "7507f382-a38b-43d5-9862-ef4f6045f369")
 		)
 		(pad "P$1" thru_hole circle
 			(at 2.51 -5.08)
@@ -657,10 +728,10 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "unconnected-(U3-PadP$1)")
+			(net 33 "unconnected-(U24-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "0a296ec1-426c-468e-ab63-870102dcfeca")
+			(uuid "2fc56b1a-07f2-4e80-b2bf-58ab9169566d")
 		)
 		(pad "P$2" thru_hole circle
 			(at -3.81 -2.54)
@@ -668,16 +739,2591 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "unconnected-(U3-PadP$2)")
+			(net 34 "unconnected-(U24-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "8cdea747-da9b-4614-8c13-088c45e9829e")
+			(uuid "80513eeb-e5b8-498e-9b99-06bca8560f70")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "26a371d7-a0f6-4488-be41-30572d3ee83b")
+		(at 76.99375 130.175)
+		(property "Reference" "U37"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "506259be-793b-4293-89ce-95cef03cf9b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ed55ff3f-5069-4a9b-87c3-710378fc6f11")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c026273-8a39-4a60-83b7-c0191b39d5cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a58bfea-d8cf-4513-a4f9-477433c6060d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1efc420b-f8bb-443c-ae96-5a55f29ca426")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e9a0dd6-ec2f-4983-9313-04567cbc49a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29305b35-d647-4968-8c5e-0ca83b4d1e01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27705325-df80-4e17-82b2-e0e558e7be9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52274633-4084-4d7d-bb50-38c1803e4380")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8679ec8-56e8-4cda-ba02-8e6d01c47649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90e942b7-59a5-4700-bdee-3f5f4082a77e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea8d0e4a-402e-48d9-984f-9f88f6ad274c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e29399e-346a-4ab0-8332-deaa99aa88ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8ea780d-3856-43c3-a1d6-69f4dd4df459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d17d4e6c-19a0-48c6-b27a-32110ed5c7e9")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1a973205-c61f-4d17-987e-0601f3a80e77")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d3a3afa-73a9-4edb-92ea-9c27b6f0414d")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd05af60-6c98-411e-8e3b-eb991a6dc5a5")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2f7e1de-3498-4ea2-a33c-2e06fdd0798e")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1a2db0e7-25ac-410e-8a3a-644a1904ccb5")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fd0fff73-f0d8-4600-b2c6-5e941bc2a9ab")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "05fd4a95-6dfe-481c-9204-ffbc614faa2d")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "58eb226d-a5f2-4cfd-bfe1-bd3bcc43e86d")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "96d79393-cc25-4bfd-bc04-125830387a79")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 56 "unconnected-(U37-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "99f74029-9531-4f83-ae3a-cef3e0c5e461")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 55 "unconnected-(U37-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "40f8b8a8-1cc5-48df-8b9b-d715e43cf015")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "28d9026e-2b55-44d6-9c10-34a49435f4ac")
+		(at 174.625 73.025)
+		(property "Reference" "U21"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "5d45dc86-04da-4f38-b23d-df6aac29b0af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0e7ad797-736d-4c8d-a7a4-4a64fc45be8d")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22af11f7-616a-41d7-be7a-2aebfb1ecc22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce05e5f2-dc5e-4df4-ba84-1db2b022d6cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d340a5-e717-4004-b5d7-34d763460c2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1ee1451-c757-4a2e-8302-f46a6e1e800a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec0fa393-ea73-4e74-a223-5d3594c4ac05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fc97b20-d9f1-43fe-b804-49714573208b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "569bc74d-e6c9-4f89-ab3e-6881c2c9ff22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f88df764-77f5-41a9-ab02-7580920a65f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dba54cb0-2c6e-4041-aba0-ea0e944e3ea0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39074f9b-1e75-4c91-98d2-a94ff739b4bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcf7c732-01b6-496f-aad6-b564073fd34d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0211fe5b-a94d-4b3d-828f-975c4aebe434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ec8d70d5-bf4e-4128-a179-fa9784e50bd1")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50f677ff-a77c-4e9f-bba0-a6711532f0da")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3c838ec-eaa8-4d3b-bf7b-138f0e2e5620")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "219fa9c8-3e98-4b37-bda3-164b6d615c09")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b81ae60-251f-4b50-a490-0ec6f8b39d72")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "73d56f2c-2b2f-45c0-a2a2-62e1ca53ba50")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "526ea8d4-bdbe-4832-abb7-5967092e8f87")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f3f181f5-f52e-4228-8155-28e4a3444e0a")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "976dba96-b332-4f95-b42d-2cc3e5a42936")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "f563146e-414e-41df-b49b-6cf64d083a39")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 28 "unconnected-(U21-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7d6c8348-8f9c-43f7-b96a-e579b0daffdb")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 27 "unconnected-(U21-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6a87159c-3bbb-48c4-a5a1-fac202e8d214")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "28db54ed-2c8d-49f6-b78e-d771749c265c")
+		(at 84.1375 92.075)
+		(property "Reference" "U23"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "cd3d9fbb-89da-4fa5-b53d-ad526db12abf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "56964551-0d4d-4360-8464-656162313a47")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57728e09-4f5d-4991-9081-00617f73dad8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "601e492e-e1a9-4869-a9b3-e37a038ab1d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00098a74-accd-414a-bea1-fb9806e5d4e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c691724a-59a8-4034-836c-5a1668fffc88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7189cdec-a48d-4892-abf7-94d1a3d78908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49fd9d28-fd93-48a6-a4b8-0a3429e8c1fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2273e487-478a-425e-81ed-364a7d01b558")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc050675-5868-4644-bfd4-837fc154e4df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872b8570-02bf-4e21-89e0-b94ad830aac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77b71e77-b19e-4347-b352-c0a9004a45d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7377fe4-1795-4b19-851b-e5d4d31cd44b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0005710f-5e08-4b59-a11a-ab8821f19560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/57aa7bfa-e47f-4ac8-ac29-15660afaad9f")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b21a7a9f-58ef-4ac3-acb0-e76c9002c28a")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8ffd9d96-4d1e-40b5-9348-bdef03fe2f1b")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "48bdc1a6-489a-4bf7-a5b9-5c34ddd5fd69")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f0f2b8fc-1016-472b-bc1d-e61051afc3f9")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "553b6cd7-de83-4a54-aaf3-c82d52dbc7fb")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7919f321-8d5a-4f2e-8c9b-68d1e9e5bcd6")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e2080c52-e73b-4358-a354-a5d8013c32e7")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "1a7296a9-0155-4c1c-913b-ae841ea19407")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "babdd7ab-1a44-42b7-9e57-3774a1699d16")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 32 "unconnected-(U23-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "98b12752-52b9-4965-8085-cb3543dd3377")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 31 "unconnected-(U23-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "37a0602a-788c-46d9-b5ba-a412756aac73")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "32d78f95-cbd9-41bb-89c4-3d7674ccbbc2")
+		(at 53.18125 130.175)
+		(property "Reference" "U36"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "6657c21e-7e4a-494c-b822-6b0762cfcf92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f2760ee1-3cb0-4092-a881-e8fd718abe7c")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a85a349a-0ced-4792-8aa0-ac972746963b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "224b2cd1-5db6-4d36-8135-99f15c8d9299")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d8c6b11-e09a-4b81-9398-9dcb9603df20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d3edfb2-73d2-4ee0-b3e6-22cbe7cb9841")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc3aa54c-d6c9-40e2-9a66-7ca563856671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea549daf-49df-4e7d-bc45-50b24fdea32d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58408516-50a5-45f6-9514-66dfc210fc75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa788a98-bafc-4e64-931e-c03819606dd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87538743-78cc-4eec-8825-b38555ac0a8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734e6736-3d09-427d-981d-d4e513920abb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba830700-0101-4609-8386-e83544995e43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b3cfd8c-2d36-4432-b727-17d0d256e59d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/83229265-4e92-4a0d-a3b0-c9a4965cf122")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e113bf9-8aaa-4369-804e-119ecf68d899")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3087c7d7-73bd-4698-97ae-44c9e583e3a9")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f46b90b4-9028-4c6e-86a4-3417fa772712")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6a46bd5-5b14-457b-97ff-13422d0c28d6")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d76fa270-2e3a-4d10-9ac0-8cb8976b9b47")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "90094562-2242-4f85-bc33-4d84e4822a4f")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8489aa1d-1d99-4327-a437-77753786cc91")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "8e704db7-654c-46e0-8b2b-f89f0f929346")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "255b2ff8-5cd3-4d32-84e7-2096c98c0c08")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 53 "unconnected-(U36-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "35c1020a-0753-4bf5-83b0-24fc3bcd22d4")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 54 "unconnected-(U36-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f58fba3f-0bc7-499c-8e23-1345dbb09814")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "52814ff7-7834-4f3f-aa65-f5c2dc621507")
+		(at 111.125 111.125)
+		(property "Reference" "U31"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "52fa1628-7eef-4133-b2d6-4c54b4b9c514")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ca0a124b-9b0c-4f1e-aef8-1e47f6899586")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08bffa72-2769-437c-afd2-991df993c4ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1efa7ef6-cc95-4472-879e-f2870cf49f06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb812a2a-8dc8-49ea-920c-89b6d2584aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94215695-3e74-4d29-9ccc-eefaa6c5893c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3db16a71-ff64-4f5f-9a9c-998721932953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adff9b40-7ec4-4215-b718-f1ea98e5700e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09377dbb-13e8-449a-b225-11db18be0ad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7003d4d-db8c-4368-bdb2-b78470b69000")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0b5b998-e678-4fe3-b6bf-a72593770ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d66eb90-3647-4d4c-af7e-0bad37446674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65eacc9e-c6da-48a3-8c9d-fa31b364b7fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "913a1ada-e41a-4532-a16a-a156c1d1ff15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ed9a2bdf-6eea-4d74-a4a0-0483087d4e4f")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c605feba-b54b-4a2e-93c7-c350eb5115fb")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e4f77efd-3acd-4361-8102-b8da1b59d25c")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d41d2f37-a2c9-4c51-8ef6-2ace23f51208")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "22f489ad-3ce7-42e1-806d-b4f9bc42bc86")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6343efc6-f9dd-40cb-93e1-324a0884ae52")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6a9a57c6-100b-434c-aaf1-3834f21e06dc")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9f899b57-6d7b-4899-a291-1af680784153")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "3d8ec042-545b-464c-b760-1b7bcc21ad86")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "357d6bf5-5827-4293-9b51-113eab8d72cc")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 45 "unconnected-(U31-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9bd860ab-d99c-41ea-ad8b-63b45c6f4852")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 46 "unconnected-(U31-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b7512c2e-59d7-457e-96b2-bc4b2d437910")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "53a53be4-e758-48fb-b79d-c50871d68b57")
+		(at 57.15 92.075)
+		(property "Reference" "U22"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "d99bdb49-6f3d-4d0a-823e-5f2aa5c333c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7fe97a78-5e83-4882-8fef-4b8a647d1e4b")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6be4fdf-58ea-497b-a665-a91d596ab6fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb2491e4-6f2b-412e-9d73-2e483e165481")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df29d39c-db56-4517-8a63-cfe89626436e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f340b283-03fd-4baf-8748-8ae951a29b62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd8b535f-ca0d-45e0-b9f9-611988890e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a695c88-1a5e-45ed-9070-556a3bca6ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37e3ef3f-e94e-46b5-8da4-c40a26ee0299")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf23e9f-c0c5-4f80-bf1a-756332f54cc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf6ad10b-9d2a-4cbe-815f-b1025dbb074c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "723ef722-a1d1-43ad-8278-56d80220ef5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d6f7d7b-8c91-4fcd-9327-13e3ea8ff004")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531d9bdf-59ba-49a2-af7b-4ee82ceb1cd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/699a50b8-0281-44c6-94f1-8c7a6a8ec2d8")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "225b15df-d1f0-49b6-aada-d9039626abdf")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5cb00bbc-63fc-4fd3-92a7-92b52848b9cc")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "09b71d62-5fe6-4838-83a3-14e2482dca8b")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7cff4609-a359-4bdc-800f-3bf2301db286")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9c3ea813-4ee2-41d5-904e-69ef6fc418b6")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "85b52d50-75ae-4103-91a7-68f9fe620313")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b8852988-9334-4400-996d-e0e2d3c422e4")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "5863b3a7-ec89-47a0-92e8-98ad189b785e")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "2e3111cc-26ef-4a68-bdc3-f90b8cc70a50")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 29 "unconnected-(U22-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "0af6ef9f-974f-48e4-a88f-d339a8dc0a23")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 30 "unconnected-(U22-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "fd3dff2b-81ca-4b85-bbfd-c6c537828a14")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "62032336-ee94-4ac1-a195-ef29be5d8669")
+		(at 130.175 111.125)
+		(property "Reference" "U32"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "15bc19a6-c388-4278-99c8-5daa28fed3a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "425f6a8b-c751-43bf-be40-09303d4ed37b")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "855f9e95-baec-4283-8e6a-8014d97d2cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fc3f2d5-e444-4ace-8b69-7d7ebee773e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3704a6e-00a0-4fb1-a9e0-10143a407e43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0972349-24c3-4e2a-8b23-520c59d38564")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b9c8d2-01b2-4b9a-8cb3-ea37f4cef0f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bcdd277-eae6-4181-811c-1c986b3ddecd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9255c82-1bf5-4a1a-b9ae-ae40a0d7b895")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5a8390e-ffb5-495d-bb15-f3dc7a7b0e9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1f2d77b-7735-45f1-be32-0d7e93cf136e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29240d09-33d4-4ef6-bdae-7cb359d980f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "843d5ad8-410a-4790-87df-5529785eaa8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba39556-798c-4f79-b5f5-1066e9cf759c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d331a7a1-4b18-47f5-b6b5-9d3978939e84")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea3c6259-1013-4a4d-88a3-40bdfe186b7c")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e4b80d11-7309-4777-b346-845e476d25c3")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b1b5ced-3cab-41e9-8c19-09e2b83610fe")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c12f234-83df-42c6-9a5f-7e45db8efb48")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4f922dc5-6a35-4368-85e4-a94b6a508b88")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "833ef4af-f5a2-4793-baf7-c92d11171a44")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b55a85ed-d039-4e46-8566-f240e5865778")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "d0a2a467-e258-48b0-bdcc-283a10cebf1d")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "d8c52d5e-f3ae-4e9d-b66d-4e320866b447")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 48 "unconnected-(U32-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "bc6ad4d0-eb7b-4595-b115-2a681a892352")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 47 "unconnected-(U32-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5dcf3f1c-955d-4d01-8789-d9262436fcfc")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "6372ea86-e565-4020-959a-5a4a49b588e8")
+		(at 61.9125 111.125)
+		(property "Reference" "U29"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "4bc5d869-184c-4c2c-8502-bed5240cc998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a81f4ab8-02a8-4678-8943-ba71a2d9d08d")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b84c4b5-19ea-43ba-8670-318024beeb2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "568eb26f-ba44-49ba-a41f-fbc60cd4c317")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "516e47ca-6406-4a45-8cf3-44a70d57bd51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0a987ed-2f85-4a2e-9da3-c756d1b029b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1314cd37-5cb9-44dd-9349-1bc21a94da53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87de3d07-aff4-488a-8c03-3a438e8b33f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2413b34a-93cd-451a-9bcc-c4d690505cc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91730893-3ee0-4f4b-9b46-7ebc512f1c59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dc59b81-c662-437a-94f1-d00856209750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e6f0b00-e9b4-4c41-87da-225f77537739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dbd88cc-2532-4357-8945-606b4e93fccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7719ca07-bfcb-4e7b-899f-de99a8623118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1911e76c-6571-46f6-9745-6fe7e149bb92")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cfde6f4f-c652-4360-98df-37306487b8a2")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83e6afcb-1808-49fe-b2dc-f03f7232e2ec")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "208347bc-a8d0-4d94-95b3-df9922d1e040")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e989d05-6b9a-4e4f-a38d-4fffe3a37e4e")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "78012653-4d93-4f9e-b346-8e27df3704f3")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3a5bf266-c6f5-498a-917f-5502bac342d8")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1c0205bb-0c5e-42d5-8903-468f86764b1d")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "d75c953f-d657-4089-a76c-4912c8b9e475")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "debf2f31-e68a-4b85-a759-8ee194a0ad37")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 42 "unconnected-(U29-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b617ee0b-df83-40f9-9bbb-7cc6462fcb23")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 41 "unconnected-(U29-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7cc4c1a5-560b-42b7-a4aa-dded92bce2d2")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "692111f3-5a2f-4bcb-8b04-b8fb2e56d6e1")
+		(at 79.375 73.025)
+		(property "Reference" "U16"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "20c80a38-bd99-4cd6-bdad-b5d55d1d9576")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f2797732-0cc7-4e59-a086-6a627ce3efca")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "516f8bda-edb6-4723-81ea-e988f8ad606d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3f5de5-a0ae-487c-941e-1f63212d11e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae979a8f-ea35-40d7-a4f6-d05e0515859a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c63cf1d-693b-4c71-a0a8-e32cec71279c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "685c0af4-0ba5-4cbf-a66f-e8e687150e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "513dca93-721b-4c9a-8a2c-48c898afa503")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a5a4b4c-d55e-4668-8d7e-1bd1cd61ba83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73ba571d-2875-45ee-ace1-8952834eac02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "668ad76c-eb2d-4696-8957-aebe456072af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fc8aed7-0315-41f7-a8db-9d956d85b065")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d3d4c7e-aeeb-4eff-a5b5-d98ade84d92f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5964de5-37da-464d-8cb2-d0d73fb9ee65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e67b6d39-6aee-4d34-9990-4d485e75dea8")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d665e027-ad8c-42f6-a57e-c05f49e34599")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f3a27bac-0503-4cc4-b896-148d7dc39dfa")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd2f1538-f47e-4c68-a480-48468f979bdb")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "acb8e037-6208-4a76-8f65-ca78ac254734")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eb27b672-9a50-4aa3-bd06-fcc64e4f477f")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a55e6ba6-f97f-48fb-a775-f915b563b79e")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b1acac81-f36d-429e-8126-03eeaece9014")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "478e5a28-a7b9-4c07-9ee1-b6c098137032")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "5bde712d-48de-4eaf-8ac6-d88bf53b8f19")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "unconnected-(U16-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "41ddbfc6-81da-479b-b98c-1f7822b42234")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "unconnected-(U16-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "42f44860-5d55-46c6-a77a-e717087d6c8f")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "85a5bd7b-1b92-475b-8c93-9ecf01f0d8c5")
-		(at 101.6 44.45)
+		(at 50.8 53.975)
 		(property "Reference" "U8"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
@@ -942,7 +3588,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "unconnected-(U8-PadP$1)")
+			(net 2 "unconnected-(U8-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "abb9fd82-dafd-4bab-94d5-102e80507a8a")
@@ -953,20 +3599,21 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "unconnected-(U8-PadP$2)")
+			(net 1 "unconnected-(U8-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "93c3fb0d-384b-481f-9393-f1d92efbda56")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
-		(uuid "949e890b-bad7-402f-b0bd-098e882c88f5")
-		(at 107.95 63.5)
-		(property "Reference" "U4"
+		(uuid "9bb9f6ee-95e5-441d-b41e-dbf6018c7a2a")
+		(at 149.225 111.125)
+		(property "Reference" "U33"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "cff9502a-9488-4e11-93b5-10c9436d82f6")
+			(uuid "18a5255a-b44a-4f03-8852-5edaef2ee1e1")
 			(effects
 				(font
 					(size 1 1)
@@ -977,7 +3624,7 @@
 		(property "Value" "MX1A-11NN"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "38a6692f-ebcd-4a33-9fde-373c035ecf12")
+			(uuid "91f835a4-e2ff-482a-b101-92cdbcf93074")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -989,7 +3636,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7070255-c907-4603-8e61-e12f078ac098")
+			(uuid "4c7690a7-fe51-45c3-9446-2835aded2493")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +3648,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c712a73c-9925-4fea-ba47-6f0204621afb")
+			(uuid "36314a63-7d06-4d87-b758-ff2bfac1f04f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +3660,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f5fa095-3b50-45ca-a551-bbbfa0304880")
+			(uuid "1413391c-c113-4cc4-8f1f-bd0608e0b02a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +3673,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ecfd918-0468-4674-b57c-51532485693e")
+			(uuid "5f049faa-2e7c-481c-b635-9bee409f5e6d")
 			(effects
 				(font
 					(size 1 1)
@@ -1039,7 +3686,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67e4a5c0-02df-480a-a292-e0020fb5d4e0")
+			(uuid "485f74db-d5e7-400e-b207-3de005413144")
 			(effects
 				(font
 					(size 1 1)
@@ -1052,7 +3699,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdf0f02d-7b87-4c02-84b3-817c5f89851d")
+			(uuid "d4455248-ebae-4955-bfea-538e6440ecfa")
 			(effects
 				(font
 					(size 1 1)
@@ -1065,7 +3712,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c05b7683-bf04-4e3e-89cd-41189287a2ba")
+			(uuid "c3550766-2fda-4ae7-baf1-fc465eddb5da")
 			(effects
 				(font
 					(size 1 1)
@@ -1078,7 +3725,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3db8725c-6dcd-42ae-a0f2-1347d543e7f3")
+			(uuid "dfd943b8-dfe6-4bd5-b7c5-e72459280385")
 			(effects
 				(font
 					(size 1 1)
@@ -1091,7 +3738,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f9aaef0-74a2-4dc3-b365-c08a4643807d")
+			(uuid "54330445-2ca9-43a9-bf6b-725cfd3b0cf6")
 			(effects
 				(font
 					(size 1 1)
@@ -1104,7 +3751,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1868689c-40c7-4819-a95e-973f10a59a90")
+			(uuid "f872c96b-19c7-4beb-b1bf-8b44b7e74dab")
 			(effects
 				(font
 					(size 1 1)
@@ -1117,7 +3764,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85609d1a-f34d-4f11-a224-3a8ade929ee2")
+			(uuid "addb1294-81d5-4a19-aa2f-b7c25571f292")
 			(effects
 				(font
 					(size 1 1)
@@ -1130,7 +3777,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fccc69ef-964f-49ac-9915-249e5ad1523a")
+			(uuid "900d5ad9-60ca-4b43-9ac8-75c52ebc2d95")
 			(effects
 				(font
 					(size 1 1)
@@ -1138,7 +3785,7 @@
 				)
 			)
 		)
-		(path "/a9dc3cad-19b0-4f53-92ba-21c1a5c1f603")
+		(path "/6ec325c6-118f-4a4f-a5ac-a91d59404a19")
 		(sheetname "Root")
 		(sheetfile "mini_keyboard.kicad_sch")
 		(attr through_hole)
@@ -1150,7 +3797,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cceaee47-3af2-446f-86ca-5a95f570b690")
+			(uuid "929185a8-8c7b-4ccd-b487-9aae51377689")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -1160,7 +3807,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fe5c638f-8e4b-461c-b170-87e2c6c54de9")
+			(uuid "0f331276-51a1-404e-a8d4-f33f40900547")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -1170,7 +3817,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "883df59d-e333-439d-b237-c735e5e93785")
+			(uuid "f5f20c62-08c6-46d2-83f2-b3cb7ae034c2")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -1180,28 +3827,28 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1c139fdf-d110-479d-8b87-a3de767fe5a8")
+			(uuid "9a73772f-8809-4638-be7b-b20abc0e3fd0")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "b3065876-e05d-4a74-a3b2-6c8d94235753")
+			(uuid "5efa23f2-3aa0-4ad6-8d47-d1d7b5489bb0")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "0830dd15-cd87-4a58-bad4-1a7b97a64caa")
+			(uuid "2b410c02-80cf-440d-a9e1-2406977b248c")
 		)
 		(pad "" np_thru_hole circle
 			(at 5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "30c239f0-181b-41ab-af7e-2a5e9812ab66")
+			(uuid "79e3501e-7e6d-48f9-9724-086d09bd4f6a")
 		)
 		(pad "BR1" thru_hole circle
 			(at -3.81 5.08)
@@ -1210,7 +3857,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "e357cecb-b508-47e0-a92a-6cea8bc7e8f5")
+			(uuid "ab817373-34fb-45bc-9305-6bbcc6494047")
 		)
 		(pad "BR2" thru_hole circle
 			(at 3.81 5.08)
@@ -1219,7 +3866,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "99e4fa99-f061-4f6b-bf45-a5bfc4e2f57b")
+			(uuid "dcc65082-e4d4-490c-9536-b6edb0ce1d6f")
 		)
 		(pad "P$1" thru_hole circle
 			(at 2.51 -5.08)
@@ -1227,10 +3874,10 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "unconnected-(U4-PadP$1)")
+			(net 49 "unconnected-(U33-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "ffa855c6-6109-4a13-a509-b87c8e6a7aed")
+			(uuid "9704706c-5617-4320-9abf-8f14ac4b305e")
 		)
 		(pad "P$2" thru_hole circle
 			(at -3.81 -2.54)
@@ -1238,16 +3885,1446 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "unconnected-(U4-PadP$2)")
+			(net 50 "unconnected-(U33-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "b4950752-dd36-40a8-8cb3-9acdc55f5f2a")
+			(uuid "a164a0a3-3c0d-4c77-addf-2e141e1c041d")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "9e3284a4-36fa-4612-966e-497651dc517e")
+		(at 55.5625 73.025)
+		(property "Reference" "U15"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "19c13312-2ad9-41bd-a340-849030a79b07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc15992a-d36e-4e63-b2cd-d8b0b9ccde8b")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2392fc8a-e1ed-413c-8fe3-25c88430c4e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e5c13d8-c8d2-4b0f-947c-114c9cec7d4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14fc9549-f696-4d0e-a843-0801e95078c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e19dcf0-a02f-4ab7-a8d4-0518fc86d5cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05bf2772-59fe-421e-8d14-81ced224f8b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fcdefe0-e06d-439c-b093-39c7b7c95a9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c01fce98-6e14-4f07-9f05-8e3684d60427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34bb2979-d2df-44cd-9721-47231e69a682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8665674f-43d5-4be4-9602-c00f2682bff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "362968f4-b262-48a8-90a9-4048fb796f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "921c8ce8-bf8f-4f08-b588-114fca77d525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3ec7b22-92fc-4e7b-9821-e1c956168245")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b3a5dba3-5352-4de1-a3ce-1ee22f3bfe8a")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83dd2821-ce8a-40a4-bd8c-f2e7eb72b1f4")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2e6c456-5621-41db-9577-ea12f18984c5")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d9be165e-9573-4faf-b6bd-1c13574505c2")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b3af600c-8639-4695-b05f-281ce09208d1")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e04bdb64-fcf0-4931-9819-22283c1610fc")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "33db6894-65ed-4019-ba37-242c655d63fa")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7bf5d007-b6d8-48ff-b71c-8ab3db0c8c43")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "bc8bf822-1087-4e1e-ba6b-d6c3be7f5927")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "252dd066-8c3f-47bf-928b-23ae6928879e")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "unconnected-(U15-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5d51b3dd-93a3-42bf-80b8-3ae9991e4e21")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "unconnected-(U15-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "603ec6cf-1307-42cc-ae91-317abb383c79")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
 		(layer "F.Cu")
+		(uuid "ba8a59aa-18a1-4b6e-8f14-b0407b62509b")
+		(at 139.7 130.175)
+		(property "Reference" "U39"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "14e897f7-7070-44f7-ade6-d21bd3ad79ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "329d59ad-803e-4b13-a406-2f7288fadedf")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2c949a1-ca3d-4551-b350-09fe4be4e935")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03c12913-81bc-41f9-8937-e84c8283157b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "867ee3b5-dc33-4dd1-8c58-5e54a8371ce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc3fc03-2b45-452c-95d1-bac999655eca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1a6cb3a-0b68-4972-8323-cec27794f142")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d879fc13-f664-4c7e-aeec-2c939bab3368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d553d94-d58e-4c13-bbeb-9fbe35cc67a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f423c13d-5526-42fb-bcad-27bb5212c0ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f40b05d-9cc6-4873-9a50-e1b4a833f316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e4d230-60df-4db6-b770-cf3b1983304b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeedf439-cf8d-43a1-b140-fac26811ab16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f11f1dec-b50c-4e4f-b5a1-c180017e014a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f834a06f-e814-4bd3-9301-24a569aefe39")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cda30d10-9076-48ca-8539-3264968f7d33")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7a0b316f-b90a-458c-b1c5-775bc3ec7aa9")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89996dff-44a6-44ea-9421-a2594723f38c")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df950e75-66b5-49fa-9d6c-fea88a714121")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a05716eb-57cd-4df5-87a7-e3dce40b69a2")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ba7dc429-3dae-404f-9f25-387a47d9aaf5")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c61cb45c-228d-44f7-9848-28fdb86196d6")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "857c25ec-1bf8-4bbf-8a5f-315d16bde1f3")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "0767d780-a7fe-43db-ade7-df41002956c5")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 59 "unconnected-(U39-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "22b704c6-83d9-442c-b1ba-c9f72c66657e")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 60 "unconnected-(U39-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "632512f2-1c8b-48a8-bfd1-95337906d1a5")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "bbb8c1bf-522b-4bb0-92e0-6b9a6d26cc0c")
+		(at 92.075 111.125)
+		(property "Reference" "U30"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "ff87038b-0329-4118-81e8-e250c9f5c343")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c8428c17-9d71-481d-8bf8-b3af269e735d")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45626958-0daf-4e46-8f0a-e8ca25e9cf3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f10385ba-f781-4742-8503-f2676032252b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9cad02c-6bd8-423c-8508-a7516f0e6f6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f37bb35-5dd7-406d-97a3-46c16a6d4594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4fd87eb-8fea-4bb9-ab67-1b59704b2456")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc4d5b49-80fe-42b8-b1ef-7a8831c75c40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50c36463-923b-4435-974d-8c99b1614d49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bb213e1-4f21-4dc1-aa4f-3f078e1b1058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce20f9fe-9c53-46b9-953c-207460b511be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80e3fa3f-9207-401e-8a8a-cc6e7bc8d5ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4bf20cd-365b-44a8-a4de-6787a1828fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "312b35ed-ebbf-4b75-b346-76ce36a786b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/26ac18cc-5eb6-4662-ab46-9c9fc0a9110e")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "508f1252-58e0-4a2c-8227-c6e3a3331d21")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "698f06df-19d8-4203-8b64-1df026efe141")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e65a501-9ba0-45ce-a3df-ce6ff2d75e37")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87159fdb-bda0-46b6-96a3-a3ac5f420c92")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1d5371e7-cc0b-460d-b1b9-daeab5b8feb2")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5067148d-e91f-4216-a0f6-a49293bfa977")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "65d129d1-aa6d-4a33-b866-a09d9aa0c637")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "6b1c5ff8-59f6-4386-a860-8a84153c5f76")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "7c929ffa-125b-401e-8e8a-6b7792155fff")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 44 "unconnected-(U30-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d7fff7b6-2016-4140-aed3-ec136911911a")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 43 "unconnected-(U30-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "09cc65be-9403-4258-a082-c7fcd830bf6a")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "be879149-e164-4f1f-9fed-e81b6d2445df")
+		(at 136.525 73.025)
+		(property "Reference" "U19"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "88d98a13-d94d-4a04-8866-e5aa970204d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f0abc3a3-726f-42bb-8262-12f7e2269f50")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b71384e0-cc39-4efc-8aae-e13e41cf8507")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1ba6da5-8be1-4e94-8cf7-8bd5342832a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1323ae7-a215-4af8-937a-416eff7f585a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bd9f5a7-02fa-49c3-a7a6-28b30e55b861")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b254b77e-7f58-465f-a169-9dc84bffc6d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1c9f15f-beb4-480a-b5dc-1488fe1fb689")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d75c979a-6bec-4edb-8c62-24aec6017df1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a71fe57-0e71-4a3d-b59b-ce6d6f892e0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07b2c7d2-9ebb-41b9-97cd-428725cc4af0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2905906-ada7-4061-854c-04df77e8d998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "212667d1-8b52-4dcc-be1d-60e199bc7d16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d93410c5-ba73-43a6-b802-b60aa6d8a843")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7aa16acd-196b-435d-a308-0bafb8839a2c")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "222e46c3-0fb4-4d83-a708-8778fb89ead0")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "069167d5-0281-4537-850b-9ac1cc6c3b96")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5960f1f-d682-405c-86f4-a4ad3b97fa87")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4749e44-1780-4f22-a7e6-1376ab8e16f5")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c95ae186-9ef6-4c97-baee-90145a763a16")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "73e71e9b-ca0c-4d66-bb64-1bf1ba3e9bba")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e6baf078-e820-4ae8-85b2-ed8077db5b44")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "6abbc191-7d4e-446c-9842-b6f92426bb74")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "b7862a8e-2c0f-49d8-92c2-aff41eff0ada")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "unconnected-(U19-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "8da7e0f2-ec3b-4b6b-8312-47d190aa0f19")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 23 "unconnected-(U19-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "11756162-1a86-44ad-a244-0ef0c8e72de1")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "c46619f4-a7be-4044-b0e2-758acd3ebcb2")
+		(at 168.275 111.125)
+		(property "Reference" "U34"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "31f88086-0753-4630-a9ef-5df441b56f79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "03a2d590-7d49-4c11-8dbc-a35fc6a7edd4")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8c6af15-e55c-4dc2-ba9b-ee439aaf88de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "105d3d8e-ac1b-4a10-beb4-5de80bf66a0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bd20ec8-462e-423d-898a-9de4cce46f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9bea0aa-89d9-49bb-aa54-4e7a887d75eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f5ba86e-4904-4bc5-acc6-798340cce778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3434c4a5-aa5e-4f52-aa5c-73508677a2de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d23c780-6514-4832-9f60-37d1e3c4cb7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e7889b5-749c-49a9-b568-ad7a7bb73b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6526149-88eb-4687-ae4a-4ab62af6290d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "724d38cc-cd24-4963-800e-59c28bcaae03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a019d0e-05da-4d6f-b468-ac24f92cdcf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f3f4bf2-ad2f-42f8-a51c-45a9c46a282a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/94466b19-e3ee-4022-a3b0-544690df7d40")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "12307d12-dd28-4d41-90a7-ec250078f3f2")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6cce34b2-97d1-4526-ab5e-5905510ebb20")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e09148fb-918e-4f1e-acd5-65eac15621dc")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1c45c19-2706-4835-bce4-6ffeda6fa3de")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "067467df-451f-488d-8bc7-07709d6850fb")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0658d428-ce6c-49b5-9ec9-a3aae20e0529")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5435cc08-57f7-4340-8824-5f23706fd30e")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "a0d6e378-de04-461a-825c-4e85147f313f")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "eb5eabe3-c6f2-4870-9b08-ac74fd9d2bee")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 51 "unconnected-(U34-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1fe8d8bd-9aa5-47a7-9382-5e3be76480c8")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 52 "unconnected-(U34-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "373ac82e-c0b3-450e-8f11-756d33c3296b")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
 		(uuid "c77c9fc4-7082-4a3b-9d0f-a3aa66bc9bb4")
-		(at 34.925 25.4)
+		(at 69.85 53.975)
 		(property "Reference" "U9"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
@@ -1512,7 +5589,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "unconnected-(U9-PadP$1)")
+			(net 4 "unconnected-(U9-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "b008dfaf-2d62-4bc5-898e-30338100c687")
@@ -1523,301 +5600,17 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "unconnected-(U9-PadP$2)")
+			(net 3 "unconnected-(U9-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4b85010a-9225-4d12-87e3-163a7dbd1f39")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-		(layer "F.Cu")
-		(uuid "c8c0223c-872a-46e9-882e-1f819c7ad1b4")
-		(at 44.45 44.45)
-		(property "Reference" "U5"
-			(at -3.175 -5.715 0)
-			(layer "F.SilkS")
-			(uuid "7cd9b81b-3d2d-472e-8c8e-13e1e995f47f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MX1A-11NN"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "c9031abb-a476-4241-be8c-70b3a83141f1")
-			(effects
-				(font
-					(size 0.787402 0.787402)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06100879-5ef4-4f75-bffb-ae63a8226d47")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "061891c0-5548-4d10-9252-cabcf786ca99")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "400d072d-58eb-4831-984f-96dfde241e36")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Cherry"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94f3adac-baa4-4ec7-bee5-ccef7fcbb57b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c462b210-de2f-487a-9169-4b29a73724a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "310619d1-c856-4a13-83b9-499676cc5788")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2e60b2c-40e1-43fb-bf46-64c84187e612")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96c7213d-d55e-4adf-b970-6b0857bc0079")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "MX1A-11NN"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0ad0764-1028-4575-9aae-dbfe73310b84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "918d3caf-924d-4644-90c4-dc22c569f019")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd57a813-cba0-4eb6-806c-afaf705abb0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f8719c4-ccf3-420b-9923-583ccb345e0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/6f2e4281-0263-4366-bebc-ad0af07e2968")
-		(sheetname "Root")
-		(sheetfile "mini_keyboard.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -7.62 -7.62)
-			(end 7.62 -7.62)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c06e8c96-921d-43fc-9426-23200a81c5f8")
-		)
-		(fp_line
-			(start -7.62 7.62)
-			(end -7.62 -7.62)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3b5f128e-5f38-40c9-8a12-8bbd85f2b4f2")
-		)
-		(fp_line
-			(start 7.62 -7.62)
-			(end 7.62 7.62)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "420dab56-4f05-46c6-a06e-4bc6b28736ad")
-		)
-		(fp_line
-			(start 7.62 7.62)
-			(end -7.62 7.62)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f7588ccf-e85c-4221-8981-243328c39857")
-		)
-		(pad "" np_thru_hole circle
-			(at -5 0)
-			(size 1.7 1.7)
-			(drill 1.7)
-			(layers "*.Cu" "*.Mask")
-			(uuid "cab059a6-2b01-42c7-af70-338a80d32429")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9bf54765-b9d9-47ea-bf71-602d4bd0a5a4")
-		)
-		(pad "" np_thru_hole circle
-			(at 5 0)
-			(size 1.7 1.7)
-			(drill 1.7)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b51543ca-baaa-4fda-8216-17c2b9a10b96")
-		)
-		(pad "BR1" thru_hole circle
-			(at -3.81 5.08)
-			(size 1.508 1.508)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "dbff0e17-4272-4523-9817-e1aae4ccd06f")
-		)
-		(pad "BR2" thru_hole circle
-			(at 3.81 5.08)
-			(size 1.508 1.508)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "03851450-225e-4fd6-857e-32a5a8ee87bb")
-		)
-		(pad "P$1" thru_hole circle
-			(at 2.51 -5.08)
-			(size 2.25 2.25)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 10 "unconnected-(U5-PadP$1)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "de623b66-7e42-44e0-a9b2-ba78d8328733")
-		)
-		(pad "P$2" thru_hole circle
-			(at -3.81 -2.54)
-			(size 2.25 2.25)
-			(drill 1.5)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 9 "unconnected-(U5-PadP$2)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "0e21f052-834c-4e8b-a098-6314ecb9c2f6")
-		)
-	)
-	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cc6f8275-f94d-42ff-84e8-95a09e2223ad")
-		(at 53.975 25.4)
+		(at 88.9 53.975)
 		(property "Reference" "U10"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
@@ -2082,7 +5875,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "unconnected-(U10-PadP$1)")
+			(net 6 "unconnected-(U10-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ff650371-5358-4c99-8ada-b4e5e3771f34")
@@ -2093,20 +5886,21 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "unconnected-(U10-PadP$2)")
+			(net 5 "unconnected-(U10-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4e034af7-32e2-488c-943f-02163c423578")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
-		(uuid "d4515f24-d61f-4dd9-99f6-999f76efb7f8")
-		(at 82.55 44.45)
-		(property "Reference" "U7"
+		(uuid "e7011453-919a-46a9-86a6-591348936512")
+		(at 165.1 53.975)
+		(property "Reference" "U14"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "b0775878-0120-4954-a994-19e07113e6a2")
+			(uuid "65093628-03b5-4d3c-9f28-6f491389d528")
 			(effects
 				(font
 					(size 1 1)
@@ -2117,7 +5911,7 @@
 		(property "Value" "MX1A-11NN"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "0709815e-41ab-4a70-ba26-9244c6f48d59")
+			(uuid "9b8b1cfe-bc76-411d-8442-767b96fc0380")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -2129,7 +5923,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a7e2bd5-9969-402a-94ed-d635d4716312")
+			(uuid "2f4d56df-aaec-48c5-975d-6ae75a9766b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +5935,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69d3faf3-120c-4aae-ae6b-f78149dbd942")
+			(uuid "bd3e08d0-9acf-4919-a300-d30477fde2ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +5947,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08ce1857-1f8a-431b-b2a5-4d4736a0be6e")
+			(uuid "31ab399b-483b-41e6-b3b4-f4456d8e3ff5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +5960,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abeee83f-a802-4bc8-beb8-e3bb2b04f684")
+			(uuid "fa503a7c-3e6d-443a-ad54-a0e7fb342d82")
 			(effects
 				(font
 					(size 1 1)
@@ -2179,7 +5973,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "145b126c-7c2e-4f1b-aa79-4fbc4f362fb1")
+			(uuid "67538d48-30ba-4bb4-83eb-ee714fc283ad")
 			(effects
 				(font
 					(size 1 1)
@@ -2192,7 +5986,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f334dbf5-7015-4c92-b390-f93c4041c9ee")
+			(uuid "9c0f3759-6317-49b4-b47c-654410d4df8b")
 			(effects
 				(font
 					(size 1 1)
@@ -2205,7 +5999,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23964219-8f9d-4ffc-aafc-7e82a10a4954")
+			(uuid "5d2f9e68-9c25-41dd-995f-6e60914ebf2c")
 			(effects
 				(font
 					(size 1 1)
@@ -2218,7 +6012,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc899225-a75b-4009-8726-c625e6df28bc")
+			(uuid "441fe9be-6a8e-4a27-a2a5-7822209df511")
 			(effects
 				(font
 					(size 1 1)
@@ -2231,7 +6025,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f8a1eb8-5972-4134-b11d-c030fb337207")
+			(uuid "d7fed5a6-759b-4aa2-b3f0-10b20f283d5e")
 			(effects
 				(font
 					(size 1 1)
@@ -2244,7 +6038,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "907557d3-b326-4805-959e-4ccca3cb09bc")
+			(uuid "350641da-1c25-4204-8cf9-b9b137a9e4f8")
 			(effects
 				(font
 					(size 1 1)
@@ -2257,7 +6051,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5218a349-38e6-423a-9d27-b531d52b946e")
+			(uuid "e7e0f3ce-b9c9-49fb-a075-a9b3b9a3bd93")
 			(effects
 				(font
 					(size 1 1)
@@ -2270,7 +6064,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "545ef717-7b07-4891-8265-c641919e32c1")
+			(uuid "a4a071f6-648b-4043-9ce8-6361a46c5240")
 			(effects
 				(font
 					(size 1 1)
@@ -2278,7 +6072,7 @@
 				)
 			)
 		)
-		(path "/c97950e0-c6c5-4a07-b123-be9d166a3652")
+		(path "/5a09de17-4a8d-4370-9f23-4e6b79472476")
 		(sheetname "Root")
 		(sheetfile "mini_keyboard.kicad_sch")
 		(attr through_hole)
@@ -2290,7 +6084,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ee05680-ef6e-4f9c-b89f-fe649f0653a1")
+			(uuid "24d95a91-309a-4803-9d56-ae7af1ee4cbb")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -2300,7 +6094,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "112c34b6-5cd3-4007-b510-b8385a9a118c")
+			(uuid "7222d8ad-4159-4cd3-8f37-34f1cd8e9950")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -2310,7 +6104,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7fdb2e67-a907-4c07-b435-13d3b2ce1c7c")
+			(uuid "6b0669bd-cb10-464a-9fb6-dbb6063878de")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -2320,28 +6114,28 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "424eb523-1c6d-4544-a082-8013f4573da2")
+			(uuid "91a45677-531f-4f5a-8732-72d725241e28")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "57560651-e699-43c8-8bc4-49d25bface39")
+			(uuid "4ac03b55-d0eb-4ff0-8573-e06ea395df7e")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "dddae86b-2f78-4c1b-9970-70d60c48452c")
+			(uuid "b64df9ce-067b-47be-a617-6ed110c0ed2a")
 		)
 		(pad "" np_thru_hole circle
 			(at 5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "4fe61f65-9c3b-42a0-b88f-e7ea94948bb1")
+			(uuid "cc1ff9b8-8e09-4e88-91b1-1c4c3f2db399")
 		)
 		(pad "BR1" thru_hole circle
 			(at -3.81 5.08)
@@ -2350,7 +6144,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "2e764b8f-ef1f-4b97-9f30-db65093fae32")
+			(uuid "135ade78-82ad-4b94-81b0-95bf14b95880")
 		)
 		(pad "BR2" thru_hole circle
 			(at 3.81 5.08)
@@ -2359,7 +6153,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "69626286-9710-4749-b1a9-312e6316cf23")
+			(uuid "3ccda7d1-03ac-4516-aea4-ff8fddeb3ae6")
 		)
 		(pad "P$1" thru_hole circle
 			(at 2.51 -5.08)
@@ -2367,10 +6161,10 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "unconnected-(U7-PadP$1)")
+			(net 13 "unconnected-(U14-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "4a986dbe-edbb-43c3-a4fb-fe7171ccf620")
+			(uuid "6c6ca3d4-4a7d-4fcd-b4ab-0506bf97c091")
 		)
 		(pad "P$2" thru_hole circle
 			(at -3.81 -2.54)
@@ -2378,20 +6172,21 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "unconnected-(U7-PadP$2)")
+			(net 14 "unconnected-(U14-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "3704e3bb-6b9e-4b68-bc49-43f2c8e7fe48")
+			(uuid "745fc5e7-ce88-48eb-8ae4-46298685302b")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
-		(uuid "e66a35a4-4603-4356-bff6-89645321eba2")
-		(at 50.8 63.5)
-		(property "Reference" "U1"
+		(uuid "ecd2f6ec-2ce8-4f61-8d38-aaabc0d7ed87")
+		(at 117.475 73.025)
+		(property "Reference" "U18"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "3bced378-eef8-4eef-a382-9de003e51678")
+			(uuid "5862f58f-c9f5-4b79-8e6b-f4e98d16bb35")
 			(effects
 				(font
 					(size 1 1)
@@ -2402,7 +6197,7 @@
 		(property "Value" "MX1A-11NN"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "5439c624-fcb9-4410-a40d-d758cb94d3c9")
+			(uuid "06a48078-b914-4cbd-b737-23b475615387")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -2414,7 +6209,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "204284f1-fc6b-4d0b-bc93-de9bd1e8521f")
+			(uuid "ae9b9c5d-dc02-46a9-a821-a068c2d25c30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +6221,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28cc42b9-e041-4eb9-8d09-464fc2d0825e")
+			(uuid "5cb8f9ef-6925-4d32-8a69-6267bf1b02e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +6233,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ae8a41d-98d4-4145-8b4c-b96b6d9915be")
+			(uuid "6ee4aec5-a408-4e91-a69a-80f6185799f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +6246,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e143bfc7-680c-48dc-9be8-810cc8c90b6a")
+			(uuid "23437ac3-9888-47f6-bd9f-e200f70cd993")
 			(effects
 				(font
 					(size 1 1)
@@ -2464,7 +6259,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "465ac92c-565c-49c5-b4ab-8fec95561678")
+			(uuid "36372f8a-c884-4858-b0fb-6ca28147ccc3")
 			(effects
 				(font
 					(size 1 1)
@@ -2477,7 +6272,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb0a7dd3-b9c8-425f-b625-669cf287f5d9")
+			(uuid "c44544c0-c355-4f86-acba-b52cf148b9ba")
 			(effects
 				(font
 					(size 1 1)
@@ -2490,7 +6285,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cca5adf9-7ec8-4a16-bf17-f122be3649d0")
+			(uuid "7a57efba-952a-49ec-a3ac-c4697651680b")
 			(effects
 				(font
 					(size 1 1)
@@ -2503,7 +6298,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ed1422f-26f4-4e1b-ab7c-a3c569a2806b")
+			(uuid "bcdd98de-befb-4211-8460-9be0ea18b7cf")
 			(effects
 				(font
 					(size 1 1)
@@ -2516,7 +6311,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20d4929a-1680-408b-83e0-2ac399e5f039")
+			(uuid "08bdc48a-a952-4efb-95c7-5445d60d4686")
 			(effects
 				(font
 					(size 1 1)
@@ -2529,7 +6324,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9869dd60-397d-42c1-9642-51e2734a08cf")
+			(uuid "5cffd8fb-5d28-4f06-8f8f-8c7182d6c0be")
 			(effects
 				(font
 					(size 1 1)
@@ -2542,7 +6337,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5b2ad5b-77fa-4557-aabb-f99af23544d8")
+			(uuid "04e1d01c-6d93-4188-b1ee-909c6f797b8a")
 			(effects
 				(font
 					(size 1 1)
@@ -2555,7 +6350,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f2fd238-a3d0-46d2-9c41-a4ef18345a8b")
+			(uuid "edaddc03-e7b0-4427-baeb-42fd855552ea")
 			(effects
 				(font
 					(size 1 1)
@@ -2563,7 +6358,7 @@
 				)
 			)
 		)
-		(path "/b13b46f7-adc5-4f13-bf99-46829d13bfa8")
+		(path "/0686c442-2949-4de1-b264-22aa7eb9f786")
 		(sheetname "Root")
 		(sheetfile "mini_keyboard.kicad_sch")
 		(attr through_hole)
@@ -2575,7 +6370,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "51cb2814-042d-4396-962c-31904bcc3533")
+			(uuid "0e1978d3-d8ff-425c-a6c2-817a26371b3d")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -2585,7 +6380,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cef7fb9d-e7d2-4c37-b705-7865a3867f90")
+			(uuid "bdea822d-2455-4cc4-bc8a-d1780f33c653")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -2595,7 +6390,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c1d32ad4-263e-436f-bdf8-2e223091a204")
+			(uuid "18bfb2e0-2250-43d7-ad5a-087877141564")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -2605,28 +6400,28 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d871356b-a388-4f4b-86d6-17704988e778")
+			(uuid "3e4b3cf7-aa3a-4f21-9293-6cc28da654b1")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f4e7a3e2-2bd7-4837-b43e-2987df2adb02")
+			(uuid "469bd405-26ef-4de3-9de3-110566cc0dbc")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "68dd0270-41a3-4259-afc0-6081a2062378")
+			(uuid "f7a3856d-3bdb-45c3-816b-932c801ac186")
 		)
 		(pad "" np_thru_hole circle
 			(at 5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "c6bbad13-53c8-4460-800a-a31b98bec5a4")
+			(uuid "3605c4f5-af94-4cbf-847a-4fc927acb0af")
 		)
 		(pad "BR1" thru_hole circle
 			(at -3.81 5.08)
@@ -2635,7 +6430,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "d1766216-1e6c-4dce-951b-fcd3b0dc6ae2")
+			(uuid "dbd71e21-88b3-4368-8175-3a96cbca3f69")
 		)
 		(pad "BR2" thru_hole circle
 			(at 3.81 5.08)
@@ -2644,7 +6439,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "48d1abbf-044f-4d64-ae1a-fa8889523625")
+			(uuid "30299f8c-d05e-4ed4-a17c-588ba878caad")
 		)
 		(pad "P$1" thru_hole circle
 			(at 2.51 -5.08)
@@ -2652,10 +6447,10 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "unconnected-(U1-PadP$1)")
+			(net 21 "unconnected-(U18-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "68b6131b-d829-4222-945f-a693322f6906")
+			(uuid "5fe547a4-00cb-43e9-b38b-a19bf48af06d")
 		)
 		(pad "P$2" thru_hole circle
 			(at -3.81 -2.54)
@@ -2663,20 +6458,21 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "unconnected-(U1-PadP$2)")
+			(net 22 "unconnected-(U18-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "72a9b499-9fbd-43bb-afc2-7195ecbbd745")
+			(uuid "81bdb03e-5dfa-45b8-b63e-2ea8d949d789")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
-		(uuid "f022fdb9-dd15-4648-9bd4-ea628a220c4b")
-		(at 69.85 63.5)
-		(property "Reference" "U2"
+		(uuid "ed784091-1b0c-4a75-90fe-63c61f403272")
+		(at 146.05 53.975)
+		(property "Reference" "U13"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "21e51db4-f59c-4a8b-a47b-0a4951560c7a")
+			(uuid "85e4edf9-4b05-46f1-adb5-eac306e68d86")
 			(effects
 				(font
 					(size 1 1)
@@ -2687,7 +6483,7 @@
 		(property "Value" "MX1A-11NN"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "96cf90d4-3e5f-4c5d-ab31-2eeb8863ca38")
+			(uuid "14a63ab6-4e8c-4619-8999-2c092fa241c3")
 			(effects
 				(font
 					(size 0.787402 0.787402)
@@ -2699,7 +6495,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82595c07-628a-44dc-8047-29a8026ea48a")
+			(uuid "08808e25-cb28-4a01-9dfc-e0c3d6c76bd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +6507,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "661a14b8-c7cd-47ec-acc2-aafebc16f49b")
+			(uuid "84db2f11-f0a7-4da0-aa0b-810fb3d351b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +6519,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4bfba4d-3cdc-4273-a3fe-2acd53321c05")
+			(uuid "71a9c2e4-a8e6-4c8c-a7f9-8635768815bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +6532,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baaea228-6693-4a58-b18a-fcf4c38e0f6c")
+			(uuid "4af090e8-065b-42c5-87ce-094662d11d91")
 			(effects
 				(font
 					(size 1 1)
@@ -2749,7 +6545,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ea099f8-5076-4bc6-9d4b-4f55cf016193")
+			(uuid "4e09de27-5136-4ab6-9308-33a85308e67b")
 			(effects
 				(font
 					(size 1 1)
@@ -2762,7 +6558,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "376dd888-e639-4a40-b82f-f9685996d2e0")
+			(uuid "c7bcc5ab-c7cc-4e06-9796-a8bccb271aa0")
 			(effects
 				(font
 					(size 1 1)
@@ -2775,7 +6571,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5a48da9-90ea-4693-bc39-01ca9cfeeff1")
+			(uuid "dc255a7b-46dd-4d59-a89e-a55bcb1a5b3e")
 			(effects
 				(font
 					(size 1 1)
@@ -2788,7 +6584,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9121435-1b86-465c-a312-099a843aff5a")
+			(uuid "99a550c5-f3ca-4c43-94e1-aa59c2d4c6d3")
 			(effects
 				(font
 					(size 1 1)
@@ -2801,7 +6597,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5430455c-9143-4507-af08-b20bad437bbe")
+			(uuid "9d28d21f-160b-4246-874e-cb4819ddae1e")
 			(effects
 				(font
 					(size 1 1)
@@ -2814,7 +6610,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5671e355-836b-4c66-b366-1a523b7a52f4")
+			(uuid "932d55e7-9497-4b99-b1b4-729696201af2")
 			(effects
 				(font
 					(size 1 1)
@@ -2827,7 +6623,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1c52305-a246-49f0-8f8e-c2d01c0e10d1")
+			(uuid "2d85f5ca-c950-488f-9132-c5aa3531eaf8")
 			(effects
 				(font
 					(size 1 1)
@@ -2840,7 +6636,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b95808e6-37c5-4ee2-85e2-1b256162a6fd")
+			(uuid "fa6e940e-8760-4685-b3fe-b67be069bfcd")
 			(effects
 				(font
 					(size 1 1)
@@ -2848,7 +6644,7 @@
 				)
 			)
 		)
-		(path "/2e6de1df-898b-4010-b32c-e08b94e13b8f")
+		(path "/3c2db9d2-7ede-4c12-b782-4d430f935330")
 		(sheetname "Root")
 		(sheetfile "mini_keyboard.kicad_sch")
 		(attr through_hole)
@@ -2860,7 +6656,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d6bcbd4-abec-4e24-a222-a9feef68c5d9")
+			(uuid "50367135-1535-4c6c-9ba2-4b443f6ea658")
 		)
 		(fp_line
 			(start -7.62 7.62)
@@ -2870,7 +6666,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4bdf9313-a4e2-4625-a3de-a574e985a6fb")
+			(uuid "0eb9acb4-64de-43e8-b76a-88add16c4c07")
 		)
 		(fp_line
 			(start 7.62 -7.62)
@@ -2880,7 +6676,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1f3e2549-4e35-44f6-9b7f-d30206d96bc6")
+			(uuid "0278d4cf-2ab0-4944-b6ea-2521cd38ed8e")
 		)
 		(fp_line
 			(start 7.62 7.62)
@@ -2890,28 +6686,28 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e956cb77-1cd3-481d-899e-a2ba69d777ab")
+			(uuid "e34926b2-101e-4b56-aefd-75f22d6a56f0")
 		)
 		(pad "" np_thru_hole circle
 			(at -5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "21f8481a-d909-46a4-8c96-4d96f6a4e13a")
+			(uuid "80ea6d86-617e-4334-8541-ec7bb66d9a9d")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "617d798d-05c1-41ce-810c-7225ee1b5053")
+			(uuid "da78e771-b23e-4d09-aa88-322eeeed95f9")
 		)
 		(pad "" np_thru_hole circle
 			(at 5 0)
 			(size 1.7 1.7)
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2ff4a019-760b-4eed-a2c3-91bb27be8abe")
+			(uuid "1edfe6d7-19f4-48ec-bae3-b4db86a9eef4")
 		)
 		(pad "BR1" thru_hole circle
 			(at -3.81 5.08)
@@ -2920,7 +6716,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "679d0cfa-8e34-411f-8705-b1df935ff45a")
+			(uuid "d822455e-e188-41ac-bbfe-d5b08a133f37")
 		)
 		(pad "BR2" thru_hole circle
 			(at 3.81 5.08)
@@ -2929,7 +6725,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "f804e878-cf08-4dc5-8722-0a50935d5a42")
+			(uuid "f51f1c61-3e0c-4e60-9e90-8ac7c678c2fc")
 		)
 		(pad "P$1" thru_hole circle
 			(at 2.51 -5.08)
@@ -2937,10 +6733,10 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "unconnected-(U2-PadP$1)")
+			(net 11 "unconnected-(U13-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "1258def4-6a08-4c26-af2b-ec61bae3ecd7")
+			(uuid "135ddcfa-8882-475a-9d25-b4f5a19aab70")
 		)
 		(pad "P$2" thru_hole circle
 			(at -3.81 -2.54)
@@ -2948,16 +6744,589 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "unconnected-(U2-PadP$2)")
+			(net 12 "unconnected-(U13-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "11d0f4b4-3f9a-4bff-8404-e4768eb6c4e4")
+			(uuid "d3d42d96-be35-4b96-b1b4-70190bb1463d")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "ee3335ae-d6e1-4dca-b885-60be901f9a3f")
+		(at 141.2875 92.075)
+		(property "Reference" "U26"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "b62b9e6d-eb6a-43a9-b08a-a104b6c1895f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d080b33b-a3d4-4033-b374-ea2d62b40bfc")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf2e96cd-ef0d-4233-a609-6c39f1dfd7fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69e5864a-d360-4f8c-88e0-bbe761a6e373")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c57cb9d0-fc27-42e8-961e-e6ba06c009b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "359c8ed6-ae2c-4286-8fe9-1c5674e43684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a89e39-dac0-4229-8087-ac1628b83930")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9792d702-868c-406c-af17-1924bb5e5978")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3d86a81-39f8-4b6d-996c-ab61307c5b27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35aa8416-1fb7-443c-a0ee-dec65b8734cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aa2ae02-62ac-4e0c-afb3-9a3645bc7ae4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c06f4f35-dfa9-4411-b62a-83803a1def4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a840230-18f3-4d60-b6f7-d528d82d44b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2260c65b-a3d5-4978-819a-f9a637be7f8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/de7fd429-52c3-4b8c-85f9-2e969aa51f29")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8ad1a13f-24c8-4f3e-90aa-b08a58c5baf5")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7b8f55cd-3e10-4726-ba7c-81c21bf2bf12")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "569d32c9-9fe7-4e3a-98f2-d5e9f9e6f8fe")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5f4649bf-a3ad-4323-8a37-7caff450313b")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3fcb32df-01e8-45cd-9a96-d31fa407811a")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "45c15e02-84d2-489c-8acb-325bfa202b3a")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "25d6dc16-30c3-4f43-80f2-3410aff82440")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "8fc5e0f9-907f-41ca-85b0-8d44ffddc6d9")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "55e1a452-a107-43fd-ad31-e517ff62eb77")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 37 "unconnected-(U26-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1b2c9980-0919-43df-af74-bb82ae74c625")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 38 "unconnected-(U26-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5a5e8561-1762-4da3-b495-51b664138a90")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "efa43e40-e0c9-4d85-9552-815a5b826486")
+		(at 100.80625 130.175)
+		(property "Reference" "U38"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "198280d6-a30c-4b5f-9d46-0c27b63d1ea9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "298f6766-9f9a-42c2-a410-cbbea3b574bd")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "092ea848-eeb4-4149-a15d-6c323e35b54e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e40b7bb2-21d8-411b-aac1-5fbf8fc531ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2fb6943-7103-4750-9b96-12dba72880ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f13c3801-cd6f-44e9-bd37-a10253b40dd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd488667-36e3-49df-b422-4677c8d60ac0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a98a4a0-735a-463c-9e99-a6bcbfd99232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a316e648-24f6-4860-9e9b-bfd9cdced3ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c705144d-3714-4bb2-a6e5-445755367686")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "416acefb-b404-476a-b7fd-b64ed592620b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12524b5e-ed2d-4a30-a420-2367d33b5236")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "434cff6e-32bf-49bb-b11a-b4b1cef9675b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c225af12-0b0d-425e-9110-1a3c0adaa62a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/08a58685-1c3c-41f9-9b61-7e764e2b5d25")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a56531c-3718-40e1-a461-ba810b957b47")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e9b15fa7-ccc0-43ff-985a-4166909fb70c")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b22fbcb-4904-4d71-967e-69e2b69288a5")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e7872e12-55d4-49f4-9165-72b1f04071a0")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "13dc224b-8d1d-44b0-9014-2249d24c5748")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7236a564-c281-4799-94ce-a149f7e96cf7")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9aa4b357-c7c2-43d9-900d-8cec0560bcd3")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "54b9bbf6-92d7-48e0-8b00-d67dd414d910")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "89281009-5bf0-4f5b-a310-82e89cb760b1")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 57 "unconnected-(U38-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9b19f931-edf5-444f-a9f5-a683dd6ca938")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 58 "unconnected-(U38-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ef3f229a-3a41-4ec1-baea-0b8b4a1428f1")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f17225ff-5184-4b59-866f-721826f3b9d8")
-		(at 92.075 25.4)
+		(at 127 53.975)
 		(property "Reference" "U12"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
@@ -3222,7 +7591,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "unconnected-(U12-PadP$1)")
+			(net 10 "unconnected-(U12-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "eab9b980-d57b-423a-8aca-9e12d8d321b2")
@@ -3233,16 +7602,589 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "unconnected-(U12-PadP$2)")
+			(net 9 "unconnected-(U12-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "e2d6aa1f-b4a5-4f56-b58f-7ed6fe8bb4e4")
 		)
 	)
 	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f5af0908-d92e-4686-98ba-b418d670d591")
+		(at 98.425 73.025)
+		(property "Reference" "U17"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "1f97cbd7-1d0c-4dbb-b115-2aefee6a3ad2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ea1f1b6d-d94d-4408-aa0c-1da36c56ba60")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8b584ae-2ba7-4564-bde2-4483840df51b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "005120a3-4f00-4537-b059-c372f24f039b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e38b54b-9c40-4e75-812c-5986f36fe5ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c347138-289c-467d-8055-93bb020f35d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c1e98e7-3271-4133-87f2-9678b14cc1ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0269145-1fbe-4ab3-a0e4-d76527aac239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "866cd998-f2cc-4aa6-83ec-bff3c3cc2bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "476d1184-0622-44d7-8dfd-d2b6697d6f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b3cbf5-fb5e-42fb-8763-11f433203836")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08cd0389-c1bc-4e0a-9e3b-72a5b5eca967")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "930927ea-95ad-4015-86f5-2d2266cae641")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa9ab4d3-d793-42f0-a7e2-026649196a6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/71165416-47e8-4260-86fc-545b4583d850")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8da89faf-eed7-46b2-8ac9-2aded64ab33e")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dac205fd-cf41-4378-b8cc-f9b523089eb9")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66c6a0be-b81b-4d14-8b4b-4604da5353bb")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4a453d6-d11a-42e8-b751-2dc41f90fd6f")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b0c71de0-22c6-422f-a3df-973b3b11bd04")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b1187d95-6193-426f-88a9-8104af3afa33")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ae89fa41-99e4-41b9-983e-fa6f6ec31ed5")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "87f4304f-0843-4048-b90b-706193a98814")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "9fb767c3-092e-462b-8f68-03fb8c35af98")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "unconnected-(U17-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "23885ddc-c300-488e-8f25-d84667602343")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "unconnected-(U17-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1c050f61-8eb2-4d65-a45d-c837551ea101")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f5c125f1-e133-4e77-9b7d-ba7256492e90")
+		(at 122.2375 92.075)
+		(property "Reference" "U25"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "9c067cea-c841-4926-a4db-05053752c1c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8bef862c-e994-4c60-ae01-68661e7bf60e")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da174f5d-6f18-41c7-b943-6bed6c01b23c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9432aea-93eb-443c-bb3f-c233697ea160")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cce30ac4-6ab6-4b50-9ccc-497300ab8688")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a075166-b7af-43e5-bbaa-8ad659e41e2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc58c02b-2e6d-46cb-b72e-c08de7223ec5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8d7ab9f-2999-405e-b000-a083b6f5c805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04f29b7f-a578-4e5d-8e11-9112393b213f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "372e9a96-5321-4196-b51e-842774f0607d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15c757b5-07cf-4da4-a74f-e16b600cabc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12625463-3471-425a-aa8a-eb950a9209f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d79442-60b9-4b3c-a255-65e25faace4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8e53b23-6271-4e56-bf54-f18b8c1768c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cf080ad9-0815-4dfe-8249-338702f970eb")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "411fb6c5-2c85-4f47-b173-4211c5e6fcb5")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9bc544da-8c57-4148-b3b5-04206e006758")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6514d550-f8ff-459f-a1dc-a42cecba1893")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "589835bf-b694-49c4-86bd-978443b475ab")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9908a204-6df5-4af0-9fd7-c7376291e1e0")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cbe5323c-cc14-406c-b0a0-5f7a6c545ea8")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fa9a7246-deb5-4216-998a-17b29313608f")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "79a3acca-ab65-43b1-91e3-e86055dd24c4")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "59c8dcdf-1f33-4d07-a5b6-984b1afe87c1")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 36 "unconnected-(U25-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "e547d9d5-6d0f-4c55-9741-7f97c4bcbc73")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 35 "unconnected-(U25-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "086fdbf6-1500-4f79-a0e3-cecc2f41de14")
+		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f5cd28db-7cfa-4f58-bcd6-3b629b6688f2")
-		(at 73.025 25.4)
+		(at 107.95 53.975)
 		(property "Reference" "U11"
 			(at -3.175 -5.715 0)
 			(layer "F.SilkS")
@@ -3507,7 +8449,7 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "unconnected-(U11-PadP$1)")
+			(net 7 "unconnected-(U11-PadP$1)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "3bb4ca91-9d96-4eae-9b5f-ad428f6a04c5")
@@ -3518,10 +8460,1087 @@
 			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "unconnected-(U11-PadP$2)")
+			(net 8 "unconnected-(U11-PadP$2)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "7c1d38f1-5037-4159-b0d1-7863a33e71c3")
 		)
+	)
+	(footprint "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f72598ca-7ac9-46f0-8fa4-886d4f86a0af")
+		(at 155.575 73.025)
+		(property "Reference" "U20"
+			(at -3.175 -5.715 0)
+			(layer "F.SilkS")
+			(uuid "4964a05f-b0af-4320-97c9-5037577f5471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8cd937b6-df46-472b-9e90-0b49d558c1a3")
+			(effects
+				(font
+					(size 0.787402 0.787402)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cf4e466-f789-4c89-88ba-e02a05657222")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbb9f432-0d2f-4eb2-8ce6-eb799e5812fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e8fa719-8433-4656-b343-ba2555755ff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734b8224-4b4a-4a90-81a0-eaf5dac2c01b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5545f488-c61b-4508-a082-d37e29e9a441")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9d8e441-ed3d-4f6c-9930-54bf2f20af68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8af6424-0aef-4637-a946-3fdef0e20805")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16db7da1-25e8-479c-a140-7e75ff4e5b63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4968f47e-2cc2-4bd2-90d5-3462a27d57c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f968ef2-25a9-40cb-a7f4-fb1cdb4c9615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25fdeea3-ac83-42b6-98e3-455a0eb3ce7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3e287c-9191-44c9-b35e-3bb2eaa08cd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/63496442-c7f4-4a81-a77b-407ca1bfaad8")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.62 -7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7a88b123-1a3e-4cab-b789-a18dbf836699")
+		)
+		(fp_line
+			(start -7.62 7.62)
+			(end -7.62 -7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1c536664-b93d-4778-9656-56b23d1acfe4")
+		)
+		(fp_line
+			(start 7.62 -7.62)
+			(end 7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "443bf146-dbc2-406e-aefd-6513513746d7")
+		)
+		(fp_line
+			(start 7.62 7.62)
+			(end -7.62 7.62)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "538c2ef4-6d58-423a-84d7-58665131b6c0")
+		)
+		(pad "" np_thru_hole circle
+			(at -5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6a19ba99-0ce0-4f75-8e9c-78b9a8818434")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "90312dfa-4d75-43f3-b3b4-ebbed636d5ef")
+		)
+		(pad "" np_thru_hole circle
+			(at 5 0)
+			(size 1.7 1.7)
+			(drill 1.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "713e9e48-1774-4bd4-a995-442703547c80")
+		)
+		(pad "BR1" thru_hole circle
+			(at -3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "6752746e-c568-4ca8-a815-54164cbacd7a")
+		)
+		(pad "BR2" thru_hole circle
+			(at 3.81 5.08)
+			(size 1.508 1.508)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "4569f2d5-9f0c-4bd9-acc0-d48404b6e7d6")
+		)
+		(pad "P$1" thru_hole circle
+			(at 2.51 -5.08)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 25 "unconnected-(U20-PadP$1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "81f7012d-08dc-410b-bb12-a6a3e5d3e575")
+		)
+		(pad "P$2" thru_hole circle
+			(at -3.81 -2.54)
+			(size 2.25 2.25)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 26 "unconnected-(U20-PadP$2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "e359a9fe-38b2-4f83-99d3-c7d5cb07ae70")
+		)
+	)
+	(footprint "pedrolib:MODULE_DEV-15583"
+		(layer "B.Cu")
+		(uuid "2ebcab10-0c6c-455e-8301-32f32a62d79d")
+		(at 36.195 95.885 180)
+		(property "Reference" "U100"
+			(at -5.715 19.685 0)
+			(layer "B.SilkS")
+			(uuid "f004e963-a2c4-4a46-ac4d-cdc940c2c9c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "DEV-15583"
+			(at 1.27 -19.685 0)
+			(layer "B.Fab")
+			(uuid "e672b9ec-35e8-4792-b471-d7268d444802")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "pedrolib:MODULE_DEV-15583"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b177415-2e77-469f-b37b-6ca4d7b97bab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5c9cf40-32a8-4301-abd8-9b0b93f7bde5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "072fc298-a5c4-4519-b3cb-d33273060a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MF" "SparkFun Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f5e3816-0ba1-4b3d-b4d7-23c70b6420c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.87mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "130cee7f-4e33-402a-a85f-748f52e66849")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa46196c-95a6-4600-accc-5f957047488d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c0009be-9bf1-441c-aa4d-57f67e815a20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DEV-15583/SparkFun+Electronics/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4839755d-0b86-45ef-bd90-3ec76335eb33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9dfa6c6f-3879-4c7b-b939-800c061f31a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DEV-15583/SparkFun+Electronics/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e492d459-be86-4516-a39e-1541a290180e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MP" "DEV-15583"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17aa1412-8f46-42db-8292-1e5f7d556f54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4001229&manufacturer=SparkFun Electronics&part_name=DEV-15583&search_term=teensy 4.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c747bb49-cf5f-4909-bd49-3d2bb2cd196f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description_1" "\nRT1062 Teensy 4.0 series ARM® Cortex®-M7 MPU Embedded Evaluation Board\n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "458049e1-b974-49b7-8f0c-a990767cfef7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e22c437-5027-49d5-8647-6a23b3ede555")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" "Sparkfun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09cd918d-14c9-43bf-887e-95331f28626d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/ffaab8ad-36dc-4cd1-8421-40b85ed69a7c")
+		(sheetname "Root")
+		(sheetfile "mini_keyboard.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 8.89 18.48)
+			(end -8.89 18.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "16d119db-782e-4597-9e3c-13331b5a9ce8")
+		)
+		(fp_line
+			(start 8.89 -17.78)
+			(end 8.89 18.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6b6821cd-3588-4610-8d79-7b8dd57eb6f9")
+		)
+		(fp_line
+			(start -8.89 18.48)
+			(end -8.89 -17.78)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "dd6dc9d0-fe0e-4a17-8edb-db2b02590583")
+		)
+		(fp_line
+			(start -8.89 -17.78)
+			(end 8.89 -17.78)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "23309bc9-ac3d-41f0-95b4-4c724c7d60be")
+		)
+		(fp_line
+			(start 9.14 18.73)
+			(end -9.14 18.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "aad16dae-4c0e-4f80-9fc8-23dffcf05afa")
+		)
+		(fp_line
+			(start 9.14 -18.03)
+			(end 9.14 18.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9635962e-4640-40bc-b739-75d775993409")
+		)
+		(fp_line
+			(start -9.14 18.73)
+			(end -9.14 -18.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c0593c07-0e04-4bdb-971e-eed7fe196182")
+		)
+		(fp_line
+			(start -9.14 -18.03)
+			(end 9.14 -18.03)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "28d1ad3c-b48f-496b-a5c2-e37263214b35")
+		)
+		(fp_line
+			(start 8.89 18.48)
+			(end -8.89 18.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "551f279a-4732-4d92-b306-dff38f18979c")
+		)
+		(fp_line
+			(start 8.89 -17.78)
+			(end 8.89 18.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a5de7c9a-506c-4493-87f6-49e889bf596f")
+		)
+		(fp_line
+			(start -8.89 18.48)
+			(end -8.89 -17.78)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0076c0a5-efba-4d5d-9d87-a5e846d43a34")
+		)
+		(fp_line
+			(start -8.89 -17.78)
+			(end 8.89 -17.78)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "9a75f25c-d5d7-4b24-9388-8ff921fac636")
+		)
+		(fp_text user "GND"
+			(at -12.065 16.256 0)
+			(layer "B.SilkS")
+			(uuid "22485978-bc57-4534-bba8-200667221c24")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "GND"
+			(at -12.065 16.256 0)
+			(layer "B.Fab")
+			(uuid "05bd90b5-7ed8-4e9d-970b-9f1cc50d3de1")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "0" thru_hole circle
+			(at -7.62 13.97 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 69 "unconnected-(U100-Pad0)")
+			(pinfunction "0")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "28d406b4-5162-4c8b-81bd-58f8918d53b6")
+		)
+		(pad "1" thru_hole circle
+			(at -7.62 11.43 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 62 "unconnected-(U100-Pad1)")
+			(pinfunction "1")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "03a64a5d-4241-40c2-8d04-77f5e799db81")
+		)
+		(pad "2" thru_hole circle
+			(at -7.62 8.89 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 83 "unconnected-(U100-Pad2)")
+			(pinfunction "2")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "b65f7d3e-f69f-4979-8f57-2849deb1f93b")
+		)
+		(pad "3" thru_hole circle
+			(at -7.62 6.35 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "unconnected-(U100-Pad3)")
+			(pinfunction "3")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "6ca47679-d4ce-49e4-a06a-3e30290f68c0")
+		)
+		(pad "3.3V_1" thru_hole circle
+			(at -2.54 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 81 "unconnected-(U100-Pad3.3V_1)")
+			(pinfunction "3.3V_1")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "a1839961-b14f-4e65-b5d2-21bba7a12754")
+		)
+		(pad "3.3V_2" thru_hole circle
+			(at 7.62 11.43 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 67 "unconnected-(U100-Pad3.3V_2)")
+			(pinfunction "3.3V_2")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "25c147d3-1c55-4fb2-b7a7-88b22dc70f1d")
+		)
+		(pad "4" thru_hole circle
+			(at -7.62 3.81 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 85 "unconnected-(U100-Pad4)")
+			(pinfunction "4")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "b6ee5c70-163b-489e-81b7-6aae244c9aef")
+		)
+		(pad "5" thru_hole circle
+			(at -7.62 1.27 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 74 "unconnected-(U100-Pad5)")
+			(pinfunction "5")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "712eed38-7f11-4747-9bb3-a147ddbb975c")
+		)
+		(pad "6" thru_hole circle
+			(at -7.62 -1.27 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 93 "unconnected-(U100-Pad6)")
+			(pinfunction "6")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "ed02c9b8-6e78-4350-8520-bf95435b4ef4")
+		)
+		(pad "7" thru_hole circle
+			(at -7.62 -3.81 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 70 "unconnected-(U100-Pad7)")
+			(pinfunction "7")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "2f7ec59f-6392-4ce3-a046-86ab040e6d5f")
+		)
+		(pad "8" thru_hole circle
+			(at -7.62 -6.35 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 77 "unconnected-(U100-Pad8)")
+			(pinfunction "8")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "80fc6cc6-d182-4973-aa37-921916a8826e")
+		)
+		(pad "9" thru_hole circle
+			(at -7.62 -8.89 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 84 "unconnected-(U100-Pad9)")
+			(pinfunction "9")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "b6aaa837-776d-402d-a3dc-3ca2193f6b69")
+		)
+		(pad "10" thru_hole circle
+			(at -7.62 -11.43 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 76 "unconnected-(U100-Pad10)")
+			(pinfunction "10")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "7e2ff93a-5cff-45cf-b4c5-084ca9a16a9f")
+		)
+		(pad "11" thru_hole circle
+			(at -7.62 -13.97 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 87 "unconnected-(U100-Pad11)")
+			(pinfunction "11")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "cb1185b6-77ab-4361-977b-885328303c9d")
+		)
+		(pad "12" thru_hole circle
+			(at -7.62 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 92 "unconnected-(U100-Pad12)")
+			(pinfunction "12")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "e6b1d2ba-355f-449d-a7b4-2ab64df457d2")
+		)
+		(pad "13" thru_hole circle
+			(at 7.62 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 75 "unconnected-(U100-Pad13)")
+			(pinfunction "13")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "746604c4-2b50-428e-94cd-4593bcac85a7")
+		)
+		(pad "14" thru_hole circle
+			(at 7.62 -13.97 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 80 "unconnected-(U100-Pad14)")
+			(pinfunction "14")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "9adab935-d8aa-4bf1-8c1c-d45cc2157906")
+		)
+		(pad "15" thru_hole circle
+			(at 7.62 -11.43 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 82 "unconnected-(U100-Pad15)")
+			(pinfunction "15")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "a8a19ae4-fdd1-459b-bc99-baf9d8ee17f3")
+		)
+		(pad "16" thru_hole circle
+			(at 7.62 -8.89 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 89 "unconnected-(U100-Pad16)")
+			(pinfunction "16")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "cdd87741-de20-4253-ba17-3741fcc7a406")
+		)
+		(pad "17" thru_hole circle
+			(at 7.62 -6.35 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 71 "unconnected-(U100-Pad17)")
+			(pinfunction "17")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "3f0f3391-ad01-4233-9d90-a5e56953aefe")
+		)
+		(pad "18" thru_hole circle
+			(at 7.62 -3.81 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 65 "unconnected-(U100-Pad18)")
+			(pinfunction "18")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "15b1ee9a-eca2-4d72-92a0-2366c475da25")
+		)
+		(pad "19" thru_hole circle
+			(at 7.62 -1.27 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 64 "unconnected-(U100-Pad19)")
+			(pinfunction "19")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "1211442d-8cd7-49e4-983b-753c963e6911")
+		)
+		(pad "20" thru_hole circle
+			(at 7.62 1.27 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 86 "unconnected-(U100-Pad20)")
+			(pinfunction "20")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "c45b903a-848a-4474-b54e-f31fa336e6f3")
+		)
+		(pad "21" thru_hole circle
+			(at 7.62 3.81 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 61 "unconnected-(U100-Pad21)")
+			(pinfunction "21")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "036ac414-f2f0-4db9-8ecd-20a1601fbff9")
+		)
+		(pad "22" thru_hole circle
+			(at 7.62 6.35 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 90 "unconnected-(U100-Pad22)")
+			(pinfunction "22")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "d8eea5b7-7458-4265-8730-7a32d68c852f")
+		)
+		(pad "23" thru_hole circle
+			(at 7.62 8.89 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 66 "unconnected-(U100-Pad23)")
+			(pinfunction "23")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "1b05ad70-4004-47fd-a2a6-8d28bbb9e3fb")
+		)
+		(pad "G1" thru_hole circle
+			(at -7.62 16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 68 "unconnected-(U100-PadG1)")
+			(pinfunction "G1")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "27ee8344-4af4-4081-9da1-3ca47316f4dd")
+		)
+		(pad "G2" thru_hole circle
+			(at 0 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 79 "unconnected-(U100-PadG2)")
+			(pinfunction "G2")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "96d9fe38-6dac-4d9a-a4d8-5b67118aef9e")
+		)
+		(pad "G3" thru_hole circle
+			(at 7.62 13.97 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 78 "unconnected-(U100-PadG3)")
+			(pinfunction "G3")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "8f9f16b9-5a7c-49e6-8419-19f15ce2fc9b")
+		)
+		(pad "ON-OFF" thru_hole circle
+			(at 5.08 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 72 "unconnected-(U100-ON{slash}OFF-PadON-OFF)")
+			(pinfunction "ON/OFF")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "6be88348-a115-4593-ae11-bc98ed1837f1")
+		)
+		(pad "PGM" thru_hole circle
+			(at 2.54 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 91 "unconnected-(U100-PROGRAM-PadPGM)")
+			(pinfunction "PROGRAM")
+			(pintype "bidirectional")
+			(solder_mask_margin 0.102)
+			(uuid "e16822cc-100b-4bcf-ad02-8c6c599c0ac0")
+		)
+		(pad "VBAT" thru_hole circle
+			(at -5.08 -16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 88 "unconnected-(U100-PadVBAT)")
+			(pinfunction "VBAT")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "cba14f7c-ee4f-4b73-b495-d985998b9f8a")
+		)
+		(pad "VIN" thru_hole circle
+			(at 7.62 16.51 180)
+			(size 1.53 1.53)
+			(drill 1.02)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 63 "unconnected-(U100-PadVIN)")
+			(pinfunction "VIN")
+			(pintype "power_in")
+			(solder_mask_margin 0.102)
+			(uuid "0adeaf52-833b-4462-97f5-f2102dce458e")
+		)
+	)
+	(gr_rect
+		(start 25.4 44.45)
+		(end 184.15 152.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f16c7fd4-94a8-4df2-afa0-1d6d6a1fd51c")
 	)
 )
