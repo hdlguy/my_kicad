@@ -9,8 +9,12 @@ arduino-cli config init
 arduino-cli core install arduino:samd
 arduino-cli board listall
 vi /home/pedro/snap/arduino-cli/55/.arduino15/arduino-cli.yaml
+
 arduino-cli sketch new cli_test
+
 arduino-cli compile --fqbn arduino:samd:nano_33_iot cli_test
+arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:samd:nano_33_iot cli_test/
+
 arduino-cli lib search keyboard
 arduino-cli lib install Keyboard
 
