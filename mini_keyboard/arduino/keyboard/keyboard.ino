@@ -13,14 +13,10 @@ void loop() {
 
     digitalWrite(LED_BUILTIN, count&0x01);
 
-    //Keyboard.printf("echo %d\n", count); 
     Keyboard.print("echo "); 
-    Keyboard.println(count);echo 1
-    echo 2
-    echo 3
-    
+    Keyboard.println(count);
 
     count = count + 1;
-    delay(3000);
+    delay(5000);
 
 }
