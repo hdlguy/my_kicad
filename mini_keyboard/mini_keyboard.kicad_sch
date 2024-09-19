@@ -5,6 +5,168 @@
 	(uuid "25132092-e92d-469e-aa46-cb8dde2a6996")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Diode:1N4148W"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "pedrolib:ABX00027"
 			(pin_names
 				(offset 1.016)
@@ -1815,9 +1977,127 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 35.56 25.4) (xy 41.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd178da5-ff94-4973-86b8-f1df26dbaf02")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 25.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec9106b-da0e-4575-b591-d0fdd87d48bb")
+	)
+	(wire
+		(pts
+			(xy 41.91 25.4) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ecda32-3f08-4751-a605-6b3bdedb7d5c")
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 76.2 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01013919-a138-4bbb-b583-2f0428b0618e")
+		(property "Reference" "D3"
+			(at 78.74 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 78.74 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 80.645 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6d61c49-49ee-41ab-9f12-7abc0f24f178")
+		)
+		(pin "1"
+			(uuid "dad33af2-5d85-4ee4-806d-07bc575e0262")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 160.02 100.33 0)
+		(at 160.02 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,7 +2106,7 @@
 		(fields_autoplaced yes)
 		(uuid "01c17802-648d-4744-98cc-0a19d6643d2d")
 		(property "Reference" "U27"
-			(at 160.02 91.44 0)
+			(at 160.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +2114,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 160.02 93.98 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +2122,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +2132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +2141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +2150,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +2160,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +2170,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +2180,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +2190,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +2200,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2210,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2220,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2230,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 160.02 100.33 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2415,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 81.28 151.13 0)
+		(at 81.28 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2144,7 +2424,7 @@
 		(fields_autoplaced yes)
 		(uuid "08a58685-1c3c-41f9-9b61-7e764e2b5d25")
 		(property "Reference" "U38"
-			(at 81.28 142.24 0)
+			(at 81.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2432,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 81.28 144.78 0)
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2440,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,7 +2450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2468,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2478,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2488,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2498,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2508,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2518,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2528,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2538,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2548,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 81.28 151.13 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,6 +2567,182 @@
 			(project "mini_keyboard"
 				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
 					(reference "U38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 25.4 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dddc929-877a-4e78-beb8-2a7bb09a63ab")
+		(property "Reference" "D1"
+			(at 27.94 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 27.94 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 29.845 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "354ae966-f8e7-47b5-9492-7f7259fe5284")
+		)
+		(pin "1"
+			(uuid "335b2631-69cf-4cb5-b1e6-d8ffd6eb4296")
+		)
+		(instances
+			(project ""
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 152.4 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "110a8e5a-6b38-4628-a352-76e2bf4322f9")
+		(property "Reference" "D6"
+			(at 154.94 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 154.94 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 156.845 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b288dd8-ce4d-45dd-a8fd-32239ba639bd")
+		)
+		(pin "1"
+			(uuid "abe855c7-f50c-4ab0-9d0f-088dac4b4b21")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2568,7 +3024,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 162.56 30.48 0)
+		(at 157.48 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2577,7 +3033,7 @@
 		(fields_autoplaced yes)
 		(uuid "190f88d5-5c8f-460e-acfd-a160df54bc76")
 		(property "Reference" "U6"
-			(at 162.56 21.59 0)
+			(at 157.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +3041,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 162.56 24.13 0)
+			(at 157.48 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +3049,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +3068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +3077,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +3087,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +3097,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +3107,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +3117,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +3127,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +3137,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +3147,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +3157,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 162.56 30.48 0)
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 29.21 128.27 0)
+		(at 29.21 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,7 +3192,7 @@
 		(fields_autoplaced yes)
 		(uuid "1911e76c-6571-46f6-9745-6fe7e149bb92")
 		(property "Reference" "U29"
-			(at 29.21 119.38 0)
+			(at 29.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +3200,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 29.21 121.92 0)
+			(at 29.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +3208,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3236,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +3246,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +3256,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +3266,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +3276,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +3286,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +3296,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +3306,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +3316,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 29.21 128.27 0)
+			(at 29.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,8 +3341,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 127 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2028c735-5b8b-4a7b-ab63-b617ccbd3bdc")
+		(property "Reference" "D5"
+			(at 129.54 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.54 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 131.445 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fcbba72-d388-44e9-bf1d-b34b990147bd")
+		)
+		(pin "1"
+			(uuid "53d28656-a88f-4d47-90ad-5b50f84e4525")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 31.75 33.02 0)
+		(at 30.48 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2895,7 +3439,7 @@
 		(fields_autoplaced yes)
 		(uuid "23878513-8ef6-4472-97f0-5d844f1e758a")
 		(property "Reference" "U1"
-			(at 31.75 24.13 0)
+			(at 30.48 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3447,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 31.75 26.67 0)
+			(at 30.48 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +3474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3483,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3493,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3503,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3513,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3523,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3533,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3543,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3553,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3563,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 31.75 33.02 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3589,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 58.42 128.27 0)
+		(at 58.42 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3054,7 +3598,7 @@
 		(fields_autoplaced yes)
 		(uuid "26ac18cc-5eb6-4662-ab46-9c9fc0a9110e")
 		(property "Reference" "U30"
-			(at 58.42 119.38 0)
+			(at 58.42 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3606,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 58.42 121.92 0)
+			(at 58.42 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3614,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3642,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3652,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3662,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3672,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3682,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3692,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3702,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3712,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3722,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 58.42 128.27 0)
+			(at 58.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3907,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 132.08 31.75 0)
+		(at 132.08 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3372,7 +3916,7 @@
 		(fields_autoplaced yes)
 		(uuid "486c2e34-d420-49ec-8d98-5e9ffb240e95")
 		(property "Reference" "U5"
-			(at 132.08 22.86 0)
+			(at 132.08 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3924,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 132.08 25.4 0)
+			(at 132.08 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3960,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3970,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3980,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3990,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +4000,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +4010,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +4020,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +4030,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +4040,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 132.08 31.75 0)
+			(at 132.08 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +4066,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 58.42 102.87 0)
+		(at 58.42 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3531,7 +4075,7 @@
 		(fields_autoplaced yes)
 		(uuid "57aa7bfa-e47f-4ac8-ac29-15660afaad9f")
 		(property "Reference" "U23"
-			(at 58.42 93.98 0)
+			(at 58.42 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +4083,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 58.42 96.52 0)
+			(at 58.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +4101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +4110,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +4119,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +4129,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +4139,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +4149,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4159,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +4169,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +4179,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +4189,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +4199,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 58.42 102.87 0)
+			(at 58.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4543,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 29.21 59.69 0)
+		(at 30.48 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4008,7 +4552,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e63472-45b9-406e-9b59-e746c39f4a81")
 		(property "Reference" "U8"
-			(at 29.21 50.8 0)
+			(at 30.48 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4560,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 29.21 53.34 0)
+			(at 30.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4568,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4596,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4606,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +4616,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4626,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4636,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4646,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4656,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4666,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4676,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 29.21 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4702,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 29.21 102.87 0)
+		(at 29.21 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4167,7 +4711,7 @@
 		(fields_autoplaced yes)
 		(uuid "699a50b8-0281-44c6-94f1-8c7a6a8ec2d8")
 		(property "Reference" "U22"
-			(at 29.21 93.98 0)
+			(at 29.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4719,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 29.21 96.52 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4727,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4755,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4765,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4775,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4785,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4795,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4805,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4815,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4825,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4835,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 29.21 102.87 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,8 +4860,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 50.8 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a2ae849-eb00-4428-94d7-29151c9c77d2")
+		(property "Reference" "D2"
+			(at 53.34 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 53.34 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 55.245 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f179694-8e25-4a92-96c7-d6d882e39d86")
+		)
+		(pin "1"
+			(uuid "cf23193c-cda6-4bff-88c1-1c67e64267b4")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 129.54 127 0)
+		(at 129.54 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4326,7 +4958,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ec325c6-118f-4a4f-a5ac-a91d59404a19")
 		(property "Reference" "U33"
-			(at 129.54 118.11 0)
+			(at 129.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4966,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 129.54 120.65 0)
+			(at 129.54 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4974,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +5002,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +5012,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +5022,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +5032,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +5042,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +5052,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +5062,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +5072,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +5082,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 129.54 127 0)
+			(at 129.54 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +5426,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 29.21 152.4 0)
+		(at 29.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4803,7 +5435,7 @@
 		(fields_autoplaced yes)
 		(uuid "83229265-4e92-4a0d-a3b0-c9a4965cf122")
 		(property "Reference" "U36"
-			(at 29.21 143.51 0)
+			(at 29.21 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +5443,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 29.21 146.05 0)
+			(at 29.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +5451,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5479,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +5489,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +5499,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +5509,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +5519,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5529,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5539,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5549,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5559,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 29.21 152.4 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,16 +5585,16 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 160.02 125.73 0)
+		(at 115.57 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94466b19-e3ee-4022-a3b0-544690df7d40")
-		(property "Reference" "U34"
-			(at 160.02 116.84 0)
+		(uuid "8ee15318-0f42-4399-8891-495975295eb9")
+		(property "Reference" "U39"
+			(at 115.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +5602,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 160.02 119.38 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +5610,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5638,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +5648,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5658,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5668,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5678,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5688,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5698,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5708,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5718,166 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 160.02 125.73 0)
+			(at 115.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "058b598a-c9e4-47c0-944c-28a6fe722c31")
+		)
+		(pin "P$2"
+			(uuid "bee5af45-3ffd-4999-b731-4e3a6c8a406b")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "U39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pedrolib:MX1A-11NN")
+		(at 160.02 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94466b19-e3ee-4022-a3b0-544690df7d40")
+		(property "Reference" "U34"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5903,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 83.82 31.75 0)
+		(at 81.28 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5121,7 +5912,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1ff03fb-ba84-4999-bc0d-84c13057a52a")
 		(property "Reference" "U3"
-			(at 83.82 22.86 0)
+			(at 81.28 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5920,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 83.82 25.4 0)
+			(at 81.28 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5928,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +5947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5956,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5966,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5976,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5986,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5996,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +6006,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +6016,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +6026,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +6036,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 83.82 31.75 0)
+			(at 81.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +6062,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 181.61 29.21 0)
+		(at 182.88 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5280,7 +6071,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac201fd7-9dc6-483c-a2fc-c54451830d3f")
 		(property "Reference" "U7"
-			(at 181.61 20.32 0)
+			(at 182.88 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +6079,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 181.61 22.86 0)
+			(at 182.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +6087,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +6097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +6106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +6115,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +6125,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +6135,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +6145,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +6155,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +6165,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +6175,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +6185,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +6195,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 181.61 29.21 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,6 +6214,94 @@
 			(project "mini_keyboard"
 				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 101.6 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b322b0a4-2680-4323-97a6-1f2b5750940d")
+		(property "Reference" "D4"
+			(at 104.14 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 104.14 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 106.045 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90619757-e36f-48a6-ad36-ac97d513ec47")
+		)
+		(pin "1"
+			(uuid "7cbe4c30-6b13-4bd2-b747-cc1ed5b510b3")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5748,7 +6627,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 81.28 101.6 0)
+		(at 81.28 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5757,7 +6636,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5c898a6-02ea-46e7-8a89-a05631ecf340")
 		(property "Reference" "U24"
-			(at 81.28 92.71 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +6644,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 81.28 95.25 0)
+			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +6652,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +6662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6680,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +6690,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6700,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +6710,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6720,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +6730,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +6740,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +6750,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6760,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 81.28 101.6 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,16 +6786,16 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 113.03 33.02 0)
+		(at 55.88 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cdfed468-436f-4f21-8bc1-39c255ccfd36")
-		(property "Reference" "U4"
-			(at 113.03 24.13 0)
+		(uuid "c7199bfa-1517-45ef-b651-837abb3f769c")
+		(property "Reference" "U2"
+			(at 55.88 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +6803,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 113.03 26.67 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6811,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +6821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +6830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +6839,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +6849,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6859,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +6869,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +6879,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6889,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6899,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6909,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6919,254 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 113.03 33.02 0)
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "51102fc9-da4e-459a-bc95-2d668006f857")
+		)
+		(pin "P$2"
+			(uuid "4b8d8bbf-49f6-4d8f-b1ac-231f49a61fb1")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 177.8 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb5e907c-b924-4309-ad8d-136df36f12c5")
+		(property "Reference" "D7"
+			(at 180.34 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 180.34 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 182.245 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "986093d4-53c9-416c-8e52-861c531dc6bf")
+		)
+		(pin "1"
+			(uuid "9ae3f39c-b26d-4caf-a8dd-ef9502733648")
+		)
+		(instances
+			(project "mini_keyboard"
+				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pedrolib:MX1A-11NN")
+		(at 106.68 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfed468-436f-4f21-8bc1-39c255ccfd36")
+		(property "Reference" "U4"
+			(at 106.68 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX1A-11NN"
+			(at 106.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Cherry"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MX1A-11NN"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
+			(at 106.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +7192,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 110.49 102.87 0)
+		(at 110.49 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6075,7 +7201,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf080ad9-0815-4dfe-8249-338702f970eb")
 		(property "Reference" "U25"
-			(at 110.49 93.98 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +7209,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 110.49 96.52 0)
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +7217,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +7227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +7236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +7245,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +7255,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +7265,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +7275,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +7285,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +7295,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +7305,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +7315,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +7325,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 110.49 102.87 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +7351,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 58.42 152.4 0)
+		(at 58.42 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6234,7 +7360,7 @@
 		(fields_autoplaced yes)
 		(uuid "d17d4e6c-19a0-48c6-b27a-32110ed5c7e9")
 		(property "Reference" "U37"
-			(at 58.42 143.51 0)
+			(at 58.42 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +7368,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 58.42 146.05 0)
+			(at 58.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +7376,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +7386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +7395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +7404,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +7414,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +7424,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +7434,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +7444,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +7454,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +7464,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +7474,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +7484,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 58.42 152.4 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +7510,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 110.49 128.27 0)
+		(at 110.49 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6393,7 +7519,7 @@
 		(fields_autoplaced yes)
 		(uuid "d331a7a1-4b18-47f5-b6b5-9d3978939e84")
 		(property "Reference" "U32"
-			(at 110.49 119.38 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +7527,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 110.49 121.92 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +7535,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +7545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +7554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +7563,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +7573,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +7583,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +7593,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +7603,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +7613,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +7623,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +7633,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +7643,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 110.49 128.27 0)
+			(at 110.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +7669,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 129.54 101.6 0)
+		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6552,7 +7678,7 @@
 		(fields_autoplaced yes)
 		(uuid "de7fd429-52c3-4b8c-85f9-2e969aa51f29")
 		(property "Reference" "U26"
-			(at 129.54 92.71 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +7686,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 129.54 95.25 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +7694,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +7704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +7713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +7722,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,7 +7732,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +7742,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +7752,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +7762,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +7772,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +7782,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +7792,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +7802,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 129.54 101.6 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +8305,7 @@
 	)
 	(symbol
 		(lib_id "pedrolib:MX1A-11NN")
-		(at 81.28 127 0)
+		(at 81.28 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7188,7 +8314,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed9a2bdf-6eea-4d74-a4a0-0483087d4e4f")
 		(property "Reference" "U31"
-			(at 81.28 118.11 0)
+			(at 81.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +8322,7 @@
 			)
 		)
 		(property "Value" "MX1A-11NN"
-			(at 81.28 120.65 0)
+			(at 81.28 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7204,7 +8330,7 @@
 			)
 		)
 		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +8340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +8349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +8358,7 @@
 			)
 		)
 		(property "MF" "Cherry"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +8368,7 @@
 			)
 		)
 		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +8378,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +8388,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +8398,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +8408,7 @@
 			)
 		)
 		(property "MP" "MX1A-11NN"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +8418,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +8428,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +8438,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,165 +8616,6 @@
 			(project "mini_keyboard"
 				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pedrolib:MX1A-11NN")
-		(at 110.49 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f834a06f-e814-4bd3-9301-24a569aefe39")
-		(property "Reference" "U39"
-			(at 110.49 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX1A-11NN"
-			(at 110.49 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pedrolib:CHERRY_MX1A-11NN_SWITCH"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Cherry"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nSwitch,Key,SPST-NO,Keyboard,Low Profile,10mA,12VDC,Face Place Mount,Std Force | Cherry Americas MX1A-11NN\n"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=snap"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MX1A-11NN"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=283337&manufacturer=Cherry&part_name=MX1A-11NN&search_term=cherry mx"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MX1A-11NN/Cherry/view-part/?ref=eda"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P$1"
-			(uuid "50891a71-3cc7-4801-a216-f15a8055b59e")
-		)
-		(pin "P$2"
-			(uuid "799b0f89-9eb7-4eee-b494-200c8acb7c23")
-		)
-		(instances
-			(project "mini_keyboard"
-				(path "/25132092-e92d-469e-aa46-cb8dde2a6996"
-					(reference "U39")
 					(unit 1)
 				)
 			)
