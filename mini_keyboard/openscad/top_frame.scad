@@ -8,49 +8,39 @@ U = 0.75*K; // standard key spacing
 
 // list of key locations
 keys = [
-    // 0
-    [
-        [1*U+K*15/32, 1*U],
-        [1*U+K*15/32+1*K*15/16, 1*U],
-        [1*U+K*15/32+2*K*15/16, 1*U],
-        [6*U, 1*U]
-    ],
-    // 1
-    [
-        [0.25*U+0.375*U+1*U, 2*U],
-        [0.5*U+0.750*U+2*U, 2*U],
-        [0.5*U+0.750*U+3*U, 2*U],
-        [0.5*U+0.750*U+4*U, 2*U],
-        [0.5*U+0.750*U+5*U, 2*U],
-        [0.5*U+0.750*U+6*U, 2*U]
-    ],
-    // 2
-    [
-        [0.375*U+1*U, 3*U],
-        [0.750*U+2*U, 3*U],
-        [0.750*U+3*U, 3*U],
-        [0.750*U+4*U, 3*U],
-        [0.750*U+5*U, 3*U],
-        [0.750*U+6*U, 3*U]
-    ],
-    // 3
-    [
-        [0.250*U+1*U, 4*U],
-        [0.500*U+2*U, 4*U],
-        [0.500*U+3*U, 4*U],
-        [0.500*U+4*U, 4*U],
-        [0.500*U+5*U, 4*U],
-        [0.500*U+6*U, 4*U]
-    ],
-    // 4
-    [
-        [1*U, 5*U],
-        [2*U, 5*U],
-        [3*U, 5*U],
-        [4*U, 5*U],
-        [5*U, 5*U],
-        [6*U, 5*U]
-    ]
+    // row 1
+    [1*U+K*15/32, 1*U],
+    [1*U+K*15/32+1*K*15/16, 1*U],
+    [1*U+K*15/32+2*K*15/16, 1*U],
+    [6*U, 1*U],
+    // row 2
+    [0.25*U+0.375*U+1*U, 2*U],
+    [0.5*U+0.750*U+2*U, 2*U],
+    [0.5*U+0.750*U+3*U, 2*U],
+    [0.5*U+0.750*U+4*U, 2*U],
+    [0.5*U+0.750*U+5*U, 2*U],
+    [0.5*U+0.750*U+6*U, 2*U],
+    // row 3
+    [0.375*U+1*U, 3*U],
+    [0.750*U+2*U, 3*U],
+    [0.750*U+3*U, 3*U],
+    [0.750*U+4*U, 3*U],
+    [0.750*U+5*U, 3*U],
+    [0.750*U+6*U, 3*U],
+    // row 4
+    [0.250*U+1*U, 4*U],
+    [0.500*U+2*U, 4*U],
+    [0.500*U+3*U, 4*U],
+    [0.500*U+4*U, 4*U],
+    [0.500*U+5*U, 4*U],
+    [0.500*U+6*U, 4*U],
+    // row 5
+    [1*U, 5*U],
+    [2*U, 5*U],
+    [3*U, 5*U],
+    [4*U, 5*U],
+    [5*U, 5*U],
+    [6*U, 5*U]
 ];
 
 Ncol = 6; 
@@ -78,10 +68,8 @@ difference() {
     color([0.0,0.3,0.5]) cube([$width, $height, $depth]);
     
     // make the key switch cutouts
-    for (row = [0:len(keys)-1]) {
-        for (col = [0:len(keys[row])-1]) {
-            translate(concat(keys[row][col], [0.0])) cube(size=[$cutout_size, $cutout_size, 20], center=true);
-        }
+    for (key = [0:len(keys)-1]) {
+        translate(concat(keys[key], [0.0])) cube(size=[$cutout_size, $cutout_size, 20], center=true);
     }
     
     // remove some depth fromt he bottom, leaving a ridge around the outside.
