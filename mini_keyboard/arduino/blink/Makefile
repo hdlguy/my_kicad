@@ -7,5 +7,5 @@ install:
 	arduino-cli upload --log-file install.txt -p /dev/ttyACM0 --fqbn arduino:samd:nano_33_iot blink.ino
 
 clean:
-	rm -r build
+	rm -rf ./build
 
